@@ -49,7 +49,7 @@ class PostListView(ListView):
 def post_share(request, post_id):
     # Retrieve post by id
     post = get_object_or_404(Post, id=post_id, status='published')
-    
+    sent = False
     if request.method == 'POST':      # Form was submitted
         form = EmailPostForm(request.POST)
         if form.is_valid():           # Form fields passed validation
@@ -57,8 +57,8 @@ def post_share(request, post_id):
             # ...send email  
             post_url = request.build_absolute_uri(post.get_absolute_url())
             subject = '{} ({}) recommends you reading "{}"'.format(cd['name'],cd['email'],post.title)
-            message = 'Read "{}" at {}\n\n{}\'s comments: {}'.format(post.title,post.url,cd['name'],cd['comments'])
-            #send_mail(subject,message,'admin@myblog.com',[cd['to']])
+            message = 'Read "{}" at {}\n\n{}\'s comments: {}'.format(post.title,post_url,cd['name'],cd['comments'])
+            send_mail(subject,message,'admin@myblog.com',[cd['to']])
             sent = True  
     else:
         form = EmailPostForm()
