@@ -1,5 +1,5 @@
 from django import forms
-from .model import Comment
+from .models import Comment
 
 class EmailPostForm(forms.Form):
     name = forms.CharField(max_length=25)
