@@ -1,6 +1,6 @@
-from django import tempalte
+from django import template
 
-register = tempalte.Library()
+register = template.Library()
 
 from .. models import Post
 
