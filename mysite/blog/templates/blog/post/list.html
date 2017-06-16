@@ -17,7 +17,7 @@
         {% endfor %}
   </p>
   <p class="date"> Published {{ post.publish }} by {{ post.author }}</p>
-      {{ post.body|markdown:30|truncatewords_html:30 }}
+      {{ post.body|markdown|truncatewords_html:30 }}
    {% endfor %}
  
      {% include "pagination.html" with page=posts %} <!--debug 这行放在这个位置-->
