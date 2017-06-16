@@ -1,5 +1,5 @@
 {% extends "blog/base.html" %}
-
+{% load blog_tags %}
 {% block title %}My Blog{% endblock %}
 
 {% block content %}
@@ -22,3 +22,4 @@
  
      {% include "pagination.html" with page=posts %} <!--debug 这行放在这个位置-->
 {% endblock %}  
+
