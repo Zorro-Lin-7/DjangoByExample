@@ -1,0 +1,1459 @@
+INFO  - 2017-06-17 18:31:24.971; org.eclipse.jetty.server.Server; jetty-8.1.10.v20130312
+INFO  - 2017-06-17 18:31:25.021; org.eclipse.jetty.deploy.providers.ScanningAppProvider; Deployment monitor /Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/contexts at interval 0
+INFO  - 2017-06-17 18:31:25.037; org.eclipse.jetty.deploy.DeploymentManager; Deployable added: /Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/contexts/solr-jetty-context.xml
+INFO  - 2017-06-17 18:31:25.159; org.eclipse.jetty.webapp.WebInfConfiguration; Extract jar:file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/webapps/solr.war!/ to /Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr-webapp/webapp
+INFO  - 2017-06-17 18:31:28.259; org.eclipse.jetty.webapp.StandardDescriptorProcessor; NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+INFO  - 2017-06-17 18:31:28.370; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init()
+INFO  - 2017-06-17 18:31:28.396; org.apache.solr.core.SolrResourceLoader; JNDI not configured for solr (NoInitialContextEx)
+INFO  - 2017-06-17 18:31:28.397; org.apache.solr.core.SolrResourceLoader; solr home defaulted to 'solr/' (could not find system property or JNDI)
+INFO  - 2017-06-17 18:31:28.400; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'solr/'
+INFO  - 2017-06-17 18:31:28.664; org.apache.solr.core.ConfigSolr; Loading container configuration from /Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/solr.xml
+INFO  - 2017-06-17 18:31:28.847; org.apache.solr.core.CorePropertiesLocator; Config-defined core root directory: /Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr
+INFO  - 2017-06-17 18:31:28.861; org.apache.solr.core.CoreContainer; New CoreContainer 1110031167
+INFO  - 2017-06-17 18:31:28.862; org.apache.solr.core.CoreContainer; Loading cores into CoreContainer [instanceDir=solr/]
+INFO  - 2017-06-17 18:31:28.879; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting socketTimeout to: 0
+INFO  - 2017-06-17 18:31:28.879; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting urlScheme to: null
+INFO  - 2017-06-17 18:31:28.895; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting connTimeout to: 0
+INFO  - 2017-06-17 18:31:28.901; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxConnectionsPerHost to: 20
+INFO  - 2017-06-17 18:31:28.902; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting corePoolSize to: 0
+INFO  - 2017-06-17 18:31:28.902; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maximumPoolSize to: 2147483647
+INFO  - 2017-06-17 18:31:28.903; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxThreadIdleTime to: 5
+INFO  - 2017-06-17 18:31:28.903; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting sizeOfQueue to: -1
+INFO  - 2017-06-17 18:31:28.904; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting fairnessPolicy to: false
+INFO  - 2017-06-17 18:31:28.904; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting useRetries to: false
+INFO  - 2017-06-17 18:31:29.430; org.apache.solr.update.UpdateShardHandler; Creating UpdateShardHandler HTTP client with params: socketTimeout=0&connTimeout=0&retry=true
+INFO  - 2017-06-17 18:31:29.433; org.apache.solr.logging.LogWatcher; SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+INFO  - 2017-06-17 18:31:29.436; org.apache.solr.logging.LogWatcher; Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+INFO  - 2017-06-17 18:31:29.449; org.apache.solr.core.CoreContainer; Host Name: 
+INFO  - 2017-06-17 18:32:04.525; org.apache.solr.core.CorePropertiesLocator; Looking for core definitions underneath /Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr
+INFO  - 2017-06-17 18:32:04.543; org.apache.solr.core.CorePropertiesLocator; Found core collection1 in /Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/collection1/
+INFO  - 2017-06-17 18:32:04.543; org.apache.solr.core.CorePropertiesLocator; Found 1 core definitions
+INFO  - 2017-06-17 18:32:04.546; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: '/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/collection1/'
+INFO  - 2017-06-17 18:32:04.747; org.apache.solr.core.SolrConfig; Adding specified lib dirs to ClassLoader
+INFO  - 2017-06-17 18:32:04.751; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/extraction/lib/apache-mime4j-core-0.7.2.jar' to classloader
+INFO  - 2017-06-17 18:32:04.752; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/extraction/lib/apache-mime4j-dom-0.7.2.jar' to classloader
+INFO  - 2017-06-17 18:32:04.753; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/extraction/lib/aspectjrt-1.6.11.jar' to classloader
+INFO  - 2017-06-17 18:32:04.753; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/extraction/lib/bcmail-jdk15-1.45.jar' to classloader
+INFO  - 2017-06-17 18:32:04.754; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/extraction/lib/bcprov-jdk15-1.45.jar' to classloader
+INFO  - 2017-06-17 18:32:04.754; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/extraction/lib/boilerpipe-1.1.0.jar' to classloader
+INFO  - 2017-06-17 18:32:04.755; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/extraction/lib/commons-compress-1.7.jar' to classloader
+INFO  - 2017-06-17 18:32:04.755; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/extraction/lib/dom4j-1.6.1.jar' to classloader
+INFO  - 2017-06-17 18:32:04.756; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/extraction/lib/fontbox-1.8.4.jar' to classloader
+INFO  - 2017-06-17 18:32:04.756; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/extraction/lib/icu4j-53.1.jar' to classloader
+INFO  - 2017-06-17 18:32:04.757; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/extraction/lib/isoparser-1.0-RC-1.jar' to classloader
+INFO  - 2017-06-17 18:32:04.757; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/extraction/lib/jdom-1.0.jar' to classloader
+INFO  - 2017-06-17 18:32:04.758; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/extraction/lib/jempbox-1.8.4.jar' to classloader
+INFO  - 2017-06-17 18:32:04.758; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/extraction/lib/jhighlight-1.0.jar' to classloader
+INFO  - 2017-06-17 18:32:04.759; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/extraction/lib/juniversalchardet-1.0.3.jar' to classloader
+INFO  - 2017-06-17 18:32:04.759; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/extraction/lib/metadata-extractor-2.6.2.jar' to classloader
+INFO  - 2017-06-17 18:32:04.760; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/extraction/lib/pdfbox-1.8.4.jar' to classloader
+INFO  - 2017-06-17 18:32:04.760; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/extraction/lib/poi-3.10.1.jar' to classloader
+INFO  - 2017-06-17 18:32:04.760; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/extraction/lib/poi-ooxml-3.10.1.jar' to classloader
+INFO  - 2017-06-17 18:32:04.761; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/extraction/lib/poi-ooxml-schemas-3.10.1.jar' to classloader
+INFO  - 2017-06-17 18:32:04.761; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/extraction/lib/poi-scratchpad-3.10.1.jar' to classloader
+INFO  - 2017-06-17 18:32:04.762; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/extraction/lib/rome-0.9.jar' to classloader
+INFO  - 2017-06-17 18:32:04.762; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/extraction/lib/tagsoup-1.2.1.jar' to classloader
+INFO  - 2017-06-17 18:32:04.763; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/extraction/lib/tika-core-1.5.jar' to classloader
+INFO  - 2017-06-17 18:32:04.763; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/extraction/lib/tika-parsers-1.5.jar' to classloader
+INFO  - 2017-06-17 18:32:04.763; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/extraction/lib/tika-xmp-1.5.jar' to classloader
+INFO  - 2017-06-17 18:32:04.764; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/extraction/lib/vorbis-java-core-0.1.jar' to classloader
+INFO  - 2017-06-17 18:32:04.764; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/extraction/lib/vorbis-java-tika-0.1.jar' to classloader
+INFO  - 2017-06-17 18:32:04.765; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/extraction/lib/xercesImpl-2.9.1.jar' to classloader
+INFO  - 2017-06-17 18:32:04.765; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/extraction/lib/xmlbeans-2.6.0.jar' to classloader
+INFO  - 2017-06-17 18:32:04.765; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/extraction/lib/xmpcore-5.1.2.jar' to classloader
+INFO  - 2017-06-17 18:32:04.766; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/extraction/lib/xz-1.4.jar' to classloader
+INFO  - 2017-06-17 18:32:04.767; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/dist/solr-cell-4.10.4.jar' to classloader
+INFO  - 2017-06-17 18:32:04.769; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/clustering/lib/attributes-binder-1.2.1.jar' to classloader
+INFO  - 2017-06-17 18:32:04.769; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/clustering/lib/carrot2-mini-3.9.0.jar' to classloader
+INFO  - 2017-06-17 18:32:04.769; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/clustering/lib/hppc-0.5.2.jar' to classloader
+INFO  - 2017-06-17 18:32:04.770; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/clustering/lib/jackson-core-asl-1.9.13.jar' to classloader
+INFO  - 2017-06-17 18:32:04.770; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/clustering/lib/jackson-mapper-asl-1.9.13.jar' to classloader
+INFO  - 2017-06-17 18:32:04.770; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/clustering/lib/mahout-collections-1.0.jar' to classloader
+INFO  - 2017-06-17 18:32:04.771; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/clustering/lib/mahout-math-0.6.jar' to classloader
+INFO  - 2017-06-17 18:32:04.771; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/clustering/lib/simple-xml-2.7.jar' to classloader
+INFO  - 2017-06-17 18:32:04.772; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/dist/solr-clustering-4.10.4.jar' to classloader
+INFO  - 2017-06-17 18:32:04.774; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/langid/lib/jsonic-1.2.7.jar' to classloader
+INFO  - 2017-06-17 18:32:04.774; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/langid/lib/langdetect-1.1-20120112.jar' to classloader
+INFO  - 2017-06-17 18:32:04.776; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/dist/solr-langid-4.10.4.jar' to classloader
+INFO  - 2017-06-17 18:32:04.777; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/velocity/lib/commons-beanutils-1.8.3.jar' to classloader
+INFO  - 2017-06-17 18:32:04.777; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/velocity/lib/commons-collections-3.2.1.jar' to classloader
+INFO  - 2017-06-17 18:32:04.789; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/velocity/lib/velocity-1.7.jar' to classloader
+INFO  - 2017-06-17 18:32:04.790; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/velocity/lib/velocity-tools-2.0.jar' to classloader
+INFO  - 2017-06-17 18:32:04.791; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/dist/solr-velocity-4.10.4.jar' to classloader
+INFO  - 2017-06-17 18:32:05.019; org.apache.solr.update.SolrIndexConfig; IndexWriter infoStream solr logging is enabled
+INFO  - 2017-06-17 18:32:05.029; org.apache.solr.core.SolrConfig; Using Lucene MatchVersion: 4.10.4
+INFO  - 2017-06-17 18:32:05.309; org.apache.solr.core.SolrConfig; Loaded SolrConfig: solrconfig.xml
+INFO  - 2017-06-17 18:32:05.321; org.apache.solr.schema.IndexSchema; Reading Solr Schema from /Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/collection1/conf/schema.xml
+INFO  - 2017-06-17 18:32:05.457; org.apache.solr.schema.IndexSchema; [collection1] Schema name=example
+INFO  - 2017-06-17 18:32:06.188; org.apache.solr.schema.IndexSchema; unique key field: id
+INFO  - 2017-06-17 18:32:06.213; org.apache.solr.rest.RestManager$Registry; Registered ManagedResource impl org.apache.solr.rest.schema.analysis.ManagedWordSetResource for path /schema/analysis/stopwords/english
+INFO  - 2017-06-17 18:32:06.215; org.apache.solr.rest.RestManager$Registry; Registered ManagedResource impl org.apache.solr.rest.schema.analysis.ManagedSynonymFilterFactory$SynonymManager for path /schema/analysis/synonyms/english
+INFO  - 2017-06-17 18:32:06.397; org.apache.solr.schema.FileExchangeRateProvider; Reloading exchange rates from file currency.xml
+INFO  - 2017-06-17 18:32:06.405; org.apache.solr.schema.FileExchangeRateProvider; Reloading exchange rates from file currency.xml
+INFO  - 2017-06-17 18:32:06.735; org.apache.solr.core.CoreContainer; Creating SolrCore 'collection1' using configuration from instancedir /Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/collection1/
+INFO  - 2017-06-17 18:32:06.844; org.apache.solr.core.SolrCore; solr.NRTCachingDirectoryFactory
+INFO  - 2017-06-17 18:32:06.878; org.apache.solr.core.SolrCore; [collection1] Opening new SolrCore at /Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/collection1/, dataDir=/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/collection1/data/
+INFO  - 2017-06-17 18:32:06.892; org.apache.solr.core.JmxMonitoredMap; No JMX servers found, not exposing Solr information with JMX.
+INFO  - 2017-06-17 18:32:06.902; org.apache.solr.core.SolrCore; [collection1] Added SolrEventListener for newSearcher: org.apache.solr.core.QuerySenderListener{queries=[]}
+INFO  - 2017-06-17 18:32:06.942; org.apache.solr.core.SolrCore; [collection1] Added SolrEventListener for firstSearcher: org.apache.solr.core.QuerySenderListener{queries=[{q=static firstSearcher warming in solrconfig.xml}]}
+INFO  - 2017-06-17 18:32:07.013; org.apache.solr.core.CachingDirectoryFactory; return new directory for /Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/collection1/data
+INFO  - 2017-06-17 18:32:07.019; org.apache.solr.core.SolrCore; New index directory detected: old=null new=/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/collection1/data/index/
+WARN  - 2017-06-17 18:32:07.020; org.apache.solr.core.SolrCore; [collection1] Solr index directory '/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/collection1/data/index' doesn't exist. Creating new index...
+INFO  - 2017-06-17 18:32:07.057; org.apache.solr.core.CachingDirectoryFactory; return new directory for /Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/collection1/data/index
+INFO  - 2017-06-17 18:32:07.150; org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onCommit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/collection1/data/index lockFactory=NativeFSLockFactory@/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/collection1/data/index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1,generation=1}
+INFO  - 2017-06-17 18:32:07.151; org.apache.solr.core.SolrDeletionPolicy; newest commit generation = 1
+INFO  - 2017-06-17 18:32:07.158; org.apache.solr.core.SolrCore; created json: solr.JSONResponseWriter
+INFO  - 2017-06-17 18:32:07.159; org.apache.solr.core.SolrCore; adding lazy queryResponseWriter: solr.VelocityResponseWriter
+INFO  - 2017-06-17 18:32:07.160; org.apache.solr.core.SolrCore; created velocity: solr.VelocityResponseWriter
+INFO  - 2017-06-17 18:32:07.164; org.apache.solr.core.SolrCore; created xslt: solr.XSLTResponseWriter
+INFO  - 2017-06-17 18:32:07.165; org.apache.solr.response.XSLTResponseWriter; xsltCacheLifetimeSeconds=5
+INFO  - 2017-06-17 18:32:07.334; org.apache.solr.core.SolrCore; no updateRequestProcessorChain defined as default, creating implicit default
+INFO  - 2017-06-17 18:32:07.348; org.apache.solr.core.RequestHandlers; created /update: org.apache.solr.handler.UpdateRequestHandler
+INFO  - 2017-06-17 18:32:07.348; org.apache.solr.core.RequestHandlers; created /update/json: org.apache.solr.handler.UpdateRequestHandler
+INFO  - 2017-06-17 18:32:07.349; org.apache.solr.core.RequestHandlers; created /update/csv: org.apache.solr.handler.UpdateRequestHandler
+INFO  - 2017-06-17 18:32:07.349; org.apache.solr.core.RequestHandlers; created /update/json/docs: org.apache.solr.handler.UpdateRequestHandler
+INFO  - 2017-06-17 18:32:07.355; org.apache.solr.core.RequestHandlers; created /select: solr.SearchHandler
+INFO  - 2017-06-17 18:32:07.355; org.apache.solr.core.RequestHandlers; created /query: solr.SearchHandler
+INFO  - 2017-06-17 18:32:07.358; org.apache.solr.core.RequestHandlers; created /get: solr.RealTimeGetHandler
+INFO  - 2017-06-17 18:32:07.358; org.apache.solr.core.RequestHandlers; created /export: solr.SearchHandler
+INFO  - 2017-06-17 18:32:07.358; org.apache.solr.core.RequestHandlers; created /browse: solr.SearchHandler
+WARN  - 2017-06-17 18:32:07.360; org.apache.solr.core.RequestHandlers; Multiple requestHandler registered to the same name: /update ignoring: org.apache.solr.handler.UpdateRequestHandler
+INFO  - 2017-06-17 18:32:07.360; org.apache.solr.core.RequestHandlers; created /update: solr.UpdateRequestHandler
+INFO  - 2017-06-17 18:32:07.361; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.extraction.ExtractingRequestHandler
+INFO  - 2017-06-17 18:32:07.363; org.apache.solr.core.RequestHandlers; created /update/extract: solr.extraction.ExtractingRequestHandler
+INFO  - 2017-06-17 18:32:07.363; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.FieldAnalysisRequestHandler
+INFO  - 2017-06-17 18:32:07.365; org.apache.solr.core.RequestHandlers; created /analysis/field: solr.FieldAnalysisRequestHandler
+INFO  - 2017-06-17 18:32:07.365; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.DocumentAnalysisRequestHandler
+INFO  - 2017-06-17 18:32:07.366; org.apache.solr.core.RequestHandlers; created /analysis/document: solr.DocumentAnalysisRequestHandler
+INFO  - 2017-06-17 18:32:07.370; org.apache.solr.core.RequestHandlers; created /admin/: solr.admin.AdminHandlers
+INFO  - 2017-06-17 18:32:07.374; org.apache.solr.core.RequestHandlers; created /admin/ping: solr.PingRequestHandler
+INFO  - 2017-06-17 18:32:07.377; org.apache.solr.core.RequestHandlers; created /debug/dump: solr.DumpRequestHandler
+INFO  - 2017-06-17 18:32:07.400; org.apache.solr.core.RequestHandlers; created /replication: solr.ReplicationHandler
+INFO  - 2017-06-17 18:32:07.400; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.SearchHandler
+INFO  - 2017-06-17 18:32:07.406; org.apache.solr.core.RequestHandlers; created /spell: solr.SearchHandler
+INFO  - 2017-06-17 18:32:07.410; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.SearchHandler
+INFO  - 2017-06-17 18:32:07.415; org.apache.solr.core.RequestHandlers; created /tvrh: solr.SearchHandler
+INFO  - 2017-06-17 18:32:07.415; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.SearchHandler
+INFO  - 2017-06-17 18:32:07.420; org.apache.solr.core.RequestHandlers; created /terms: solr.SearchHandler
+INFO  - 2017-06-17 18:32:07.421; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.SearchHandler
+INFO  - 2017-06-17 18:32:07.421; org.apache.solr.core.RequestHandlers; created /elevate: solr.SearchHandler
+INFO  - 2017-06-17 18:32:07.523; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2017-06-17 18:32:07.528; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2017-06-17 18:32:07.530; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2017-06-17 18:32:07.534; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2017-06-17 18:32:07.538; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2017-06-17 18:32:07.616; org.apache.solr.update.CommitTracker; Hard AutoCommit: if uncommited for 15000ms; 
+INFO  - 2017-06-17 18:32:07.617; org.apache.solr.update.CommitTracker; Soft AutoCommit: disabled
+INFO  - 2017-06-17 18:32:07.635; org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/collection1/data/index lockFactory=NativeFSLockFactory@/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/collection1/data/index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1,generation=1}
+INFO  - 2017-06-17 18:32:07.635; org.apache.solr.core.SolrDeletionPolicy; newest commit generation = 1
+INFO  - 2017-06-17 18:32:07.685; org.apache.solr.search.SolrIndexSearcher; Opening Searcher@6f7c1211[collection1] main
+INFO  - 2017-06-17 18:32:07.698; org.apache.solr.rest.ManagedResourceStorage$FileStorageIO; File-based storage initialized to use dir: /Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/collection1/conf
+INFO  - 2017-06-17 18:32:07.698; org.apache.solr.rest.RestManager; Initializing RestManager with initArgs: {storageDir=/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/collection1/conf}
+INFO  - 2017-06-17 18:32:07.701; org.apache.solr.rest.ManagedResourceStorage; Reading _rest_managed.json using file:dir=/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/collection1/conf
+INFO  - 2017-06-17 18:32:07.712; org.apache.solr.rest.ManagedResourceStorage; Loaded LinkedHashMap at path _rest_managed.json using file:dir=/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/collection1/conf
+INFO  - 2017-06-17 18:32:07.713; org.apache.solr.rest.ManagedResource; Loaded initArgs {} for /rest/managed
+INFO  - 2017-06-17 18:32:07.713; org.apache.solr.rest.RestManager; Initializing 2 registered ManagedResources
+INFO  - 2017-06-17 18:32:07.714; org.apache.solr.rest.ManagedResourceStorage; Reading _schema_analysis_stopwords_english.json using file:dir=/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/collection1/conf
+INFO  - 2017-06-17 18:32:07.717; org.apache.solr.rest.ManagedResourceStorage; Loaded LinkedHashMap at path _schema_analysis_stopwords_english.json using file:dir=/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/collection1/conf
+INFO  - 2017-06-17 18:32:07.717; org.apache.solr.rest.ManagedResource; Loaded initArgs {ignoreCase=true} for /schema/analysis/stopwords/english
+INFO  - 2017-06-17 18:32:07.718; org.apache.solr.rest.schema.analysis.ManagedWordSetResource; Loaded 35 words for /schema/analysis/stopwords/english
+INFO  - 2017-06-17 18:32:07.718; org.apache.solr.rest.ManagedResource; Notified 1 observers of /schema/analysis/stopwords/english
+INFO  - 2017-06-17 18:32:07.719; org.apache.solr.rest.ManagedResourceStorage; Reading _schema_analysis_synonyms_english.json using file:dir=/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/collection1/conf
+INFO  - 2017-06-17 18:32:07.720; org.apache.solr.rest.ManagedResourceStorage; Loaded LinkedHashMap at path _schema_analysis_synonyms_english.json using file:dir=/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/collection1/conf
+INFO  - 2017-06-17 18:32:07.721; org.apache.solr.rest.ManagedResource; Loaded initArgs {ignoreCase=true,format=solr} for /schema/analysis/synonyms/english
+INFO  - 2017-06-17 18:32:07.723; org.apache.solr.rest.schema.analysis.ManagedSynonymFilterFactory$SynonymManager; Loaded 3 synonym mappings for /schema/analysis/synonyms/english
+INFO  - 2017-06-17 18:32:07.727; org.apache.solr.rest.ManagedResource; Notified 1 observers of /schema/analysis/synonyms/english
+INFO  - 2017-06-17 18:32:07.727; org.apache.solr.handler.component.SpellCheckComponent; Initializing spell checkers
+INFO  - 2017-06-17 18:32:07.759; org.apache.solr.spelling.DirectSolrSpellChecker; init: {name=default,field=text,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+INFO  - 2017-06-17 18:32:07.773; org.apache.solr.handler.component.SpellCheckComponent; No queryConverter defined, using default converter
+INFO  - 2017-06-17 18:32:07.782; org.apache.solr.handler.component.QueryElevationComponent; Loading QueryElevation from: /Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/collection1/conf/elevate.xml
+INFO  - 2017-06-17 18:32:42.846; org.apache.solr.handler.ReplicationHandler; Commits will be reserved for  10000
+INFO  - 2017-06-17 18:32:42.847; org.apache.solr.core.QuerySenderListener; QuerySenderListener sending requests to Searcher@6f7c1211[collection1] main{StandardDirectoryReader(segments_1:1:nrt)}
+INFO  - 2017-06-17 18:32:42.848; org.apache.solr.core.CoreContainer; registering core: collection1
+INFO  - 2017-06-17 18:32:42.877; org.apache.solr.servlet.SolrDispatchFilter; user.dir=/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example
+INFO  - 2017-06-17 18:32:42.877; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init() done
+INFO  - 2017-06-17 18:32:42.944; org.apache.solr.core.SolrCore; [collection1] webapp=null path=null params={q=static+firstSearcher+warming+in+solrconfig.xml&distrib=false&event=firstSearcher} hits=0 status=0 QTime=91 
+INFO  - 2017-06-17 18:32:42.946; org.apache.solr.core.QuerySenderListener; QuerySenderListener done.
+INFO  - 2017-06-17 18:32:42.946; org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener; Loading spell index for spellchecker: default
+INFO  - 2017-06-17 18:32:42.946; org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener; Loading spell index for spellchecker: wordbreak
+INFO  - 2017-06-17 18:32:42.946; org.eclipse.jetty.server.AbstractConnector; Started SocketConnector@0.0.0.0:8983
+INFO  - 2017-06-17 18:32:42.947; org.apache.solr.core.SolrCore; [collection1] Registered new searcher Searcher@6f7c1211[collection1] main{StandardDirectoryReader(segments_1:1:nrt)}
+INFO  - 2017-06-17 18:32:59.121; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1497695579108} status=0 QTime=3 
+INFO  - 2017-06-17 18:32:59.293; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/system params={wt=json&_=1497695579199} status=0 QTime=87 
+INFO  - 2017-06-17 18:36:33.031; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={wt=json&since=0&_=1497695793017} status=0 QTime=2 
+INFO  - 2017-06-17 18:36:36.047; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={wt=json&_=1497695796025} status=0 QTime=4 
+INFO  - 2017-06-17 18:36:36.114; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={wt=json&_=1497695796074} status=0 QTime=1 
+INFO  - 2017-06-17 18:36:38.187; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/properties params={wt=json&_=1497695798179} status=0 QTime=0 
+INFO  - 2017-06-17 18:36:39.352; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/threads params={wt=json&_=1497695799326} status=0 QTime=18 
+INFO  - 2017-06-17 18:36:41.146; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={wt=json&_=1497695801131} status=0 QTime=1 
+INFO  - 2017-06-17 18:36:41.170; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={wt=json&_=1497695801162} status=0 QTime=1 
+INFO  - 2017-06-17 18:39:14.706; org.eclipse.jetty.server.Server; Graceful shutdown SocketConnector@0.0.0.0:8983
+INFO  - 2017-06-17 18:39:14.706; org.eclipse.jetty.server.Server; Graceful shutdown o.e.j.w.WebAppContext{/solr,file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr-webapp/webapp/},/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/webapps/solr.war
+INFO  - 2017-06-17 18:39:15.708; org.apache.solr.core.CoreContainer; Shutting down CoreContainer instance=1110031167
+INFO  - 2017-06-17 18:39:15.709; org.apache.solr.core.SolrCore; [collection1]  CLOSING SolrCore org.apache.solr.core.SolrCore@6078bd3d
+INFO  - 2017-06-17 18:39:15.710; org.apache.solr.update.DirectUpdateHandler2; closing DirectUpdateHandler2{commits=0,autocommit maxTime=15000ms,autocommits=0,soft autocommits=0,optimizes=0,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=0,cumulative_deletesById=0,cumulative_deletesByQuery=0,cumulative_errors=0,transaction_logs_total_size=0,transaction_logs_total_number=0}
+INFO  - 2017-06-17 18:39:15.710; org.apache.solr.update.SolrCoreState; Closing SolrCoreState
+INFO  - 2017-06-17 18:39:15.711; org.apache.solr.update.DefaultSolrCoreState; SolrCoreState ref count has reached 0 - closing IndexWriter
+INFO  - 2017-06-17 18:39:15.711; org.apache.solr.update.DefaultSolrCoreState; closing IndexWriter with IndexWriterCloser
+INFO  - 2017-06-17 18:39:15.713; org.apache.solr.core.SolrCore; [collection1] Closing main searcher on request.
+INFO  - 2017-06-17 18:39:15.715; org.apache.solr.core.CachingDirectoryFactory; Closing NRTCachingDirectoryFactory - 2 directories currently being tracked
+INFO  - 2017-06-17 18:39:15.717; org.apache.solr.core.CachingDirectoryFactory; looking to close /Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/collection1/data [CachedDir<<refCount=0;path=/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/collection1/data;done=false>>]
+INFO  - 2017-06-17 18:39:15.717; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/collection1/data
+INFO  - 2017-06-17 18:39:15.718; org.apache.solr.core.CachingDirectoryFactory; looking to close /Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/collection1/data/index [CachedDir<<refCount=0;path=/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/collection1/data/index;done=false>>]
+INFO  - 2017-06-17 18:39:15.718; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/collection1/data/index
+INFO  - 2017-06-17 18:39:15.720; org.eclipse.jetty.server.handler.ContextHandler; stopped o.e.j.w.WebAppContext{/solr,file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr-webapp/webapp/},/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/webapps/solr.war
+INFO  - 2017-06-17 18:52:38.652; org.eclipse.jetty.server.Server; jetty-8.1.10.v20130312
+INFO  - 2017-06-17 18:52:38.682; org.eclipse.jetty.deploy.providers.ScanningAppProvider; Deployment monitor /Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/contexts at interval 0
+INFO  - 2017-06-17 18:52:38.688; org.eclipse.jetty.deploy.DeploymentManager; Deployable added: /Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/contexts/solr-jetty-context.xml
+INFO  - 2017-06-17 18:52:39.830; org.eclipse.jetty.webapp.StandardDescriptorProcessor; NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+INFO  - 2017-06-17 18:52:39.906; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init()
+INFO  - 2017-06-17 18:52:39.925; org.apache.solr.core.SolrResourceLoader; JNDI not configured for solr (NoInitialContextEx)
+INFO  - 2017-06-17 18:52:39.925; org.apache.solr.core.SolrResourceLoader; solr home defaulted to 'solr/' (could not find system property or JNDI)
+INFO  - 2017-06-17 18:52:39.927; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'solr/'
+INFO  - 2017-06-17 18:52:40.088; org.apache.solr.core.ConfigSolr; Loading container configuration from /Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/solr.xml
+INFO  - 2017-06-17 18:52:40.226; org.apache.solr.core.CorePropertiesLocator; Config-defined core root directory: /Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr
+INFO  - 2017-06-17 18:52:40.235; org.apache.solr.core.CoreContainer; New CoreContainer 1456339771
+INFO  - 2017-06-17 18:52:40.236; org.apache.solr.core.CoreContainer; Loading cores into CoreContainer [instanceDir=solr/]
+INFO  - 2017-06-17 18:52:40.251; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting socketTimeout to: 0
+INFO  - 2017-06-17 18:52:40.251; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting urlScheme to: null
+INFO  - 2017-06-17 18:52:40.260; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting connTimeout to: 0
+INFO  - 2017-06-17 18:52:40.261; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxConnectionsPerHost to: 20
+INFO  - 2017-06-17 18:52:40.264; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting corePoolSize to: 0
+INFO  - 2017-06-17 18:52:40.264; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maximumPoolSize to: 2147483647
+INFO  - 2017-06-17 18:52:40.265; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxThreadIdleTime to: 5
+INFO  - 2017-06-17 18:52:40.265; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting sizeOfQueue to: -1
+INFO  - 2017-06-17 18:52:40.265; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting fairnessPolicy to: false
+INFO  - 2017-06-17 18:52:40.266; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting useRetries to: false
+INFO  - 2017-06-17 18:52:40.603; org.apache.solr.update.UpdateShardHandler; Creating UpdateShardHandler HTTP client with params: socketTimeout=0&connTimeout=0&retry=true
+INFO  - 2017-06-17 18:52:40.606; org.apache.solr.logging.LogWatcher; SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+INFO  - 2017-06-17 18:52:40.609; org.apache.solr.logging.LogWatcher; Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+INFO  - 2017-06-17 18:52:40.612; org.apache.solr.core.CoreContainer; Host Name: 
+INFO  - 2017-06-17 18:53:15.666; org.apache.solr.core.CorePropertiesLocator; Looking for core definitions underneath /Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr
+INFO  - 2017-06-17 18:53:15.677; org.apache.solr.core.CorePropertiesLocator; Found core collection1 in /Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/collection1/
+INFO  - 2017-06-17 18:53:15.677; org.apache.solr.core.CorePropertiesLocator; Found 1 core definitions
+INFO  - 2017-06-17 18:53:15.679; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: '/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/collection1/'
+INFO  - 2017-06-17 18:53:15.759; org.apache.solr.core.SolrConfig; Adding specified lib dirs to ClassLoader
+INFO  - 2017-06-17 18:53:15.761; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/extraction/lib/apache-mime4j-core-0.7.2.jar' to classloader
+INFO  - 2017-06-17 18:53:15.762; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/extraction/lib/apache-mime4j-dom-0.7.2.jar' to classloader
+INFO  - 2017-06-17 18:53:15.762; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/extraction/lib/aspectjrt-1.6.11.jar' to classloader
+INFO  - 2017-06-17 18:53:15.762; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/extraction/lib/bcmail-jdk15-1.45.jar' to classloader
+INFO  - 2017-06-17 18:53:15.763; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/extraction/lib/bcprov-jdk15-1.45.jar' to classloader
+INFO  - 2017-06-17 18:53:15.763; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/extraction/lib/boilerpipe-1.1.0.jar' to classloader
+INFO  - 2017-06-17 18:53:15.763; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/extraction/lib/commons-compress-1.7.jar' to classloader
+INFO  - 2017-06-17 18:53:15.763; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/extraction/lib/dom4j-1.6.1.jar' to classloader
+INFO  - 2017-06-17 18:53:15.771; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/extraction/lib/fontbox-1.8.4.jar' to classloader
+INFO  - 2017-06-17 18:53:15.771; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/extraction/lib/icu4j-53.1.jar' to classloader
+INFO  - 2017-06-17 18:53:15.772; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/extraction/lib/isoparser-1.0-RC-1.jar' to classloader
+INFO  - 2017-06-17 18:53:15.772; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/extraction/lib/jdom-1.0.jar' to classloader
+INFO  - 2017-06-17 18:53:15.772; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/extraction/lib/jempbox-1.8.4.jar' to classloader
+INFO  - 2017-06-17 18:53:15.773; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/extraction/lib/jhighlight-1.0.jar' to classloader
+INFO  - 2017-06-17 18:53:15.773; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/extraction/lib/juniversalchardet-1.0.3.jar' to classloader
+INFO  - 2017-06-17 18:53:15.773; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/extraction/lib/metadata-extractor-2.6.2.jar' to classloader
+INFO  - 2017-06-17 18:53:15.773; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/extraction/lib/pdfbox-1.8.4.jar' to classloader
+INFO  - 2017-06-17 18:53:15.774; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/extraction/lib/poi-3.10.1.jar' to classloader
+INFO  - 2017-06-17 18:53:15.774; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/extraction/lib/poi-ooxml-3.10.1.jar' to classloader
+INFO  - 2017-06-17 18:53:15.774; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/extraction/lib/poi-ooxml-schemas-3.10.1.jar' to classloader
+INFO  - 2017-06-17 18:53:15.775; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/extraction/lib/poi-scratchpad-3.10.1.jar' to classloader
+INFO  - 2017-06-17 18:53:15.775; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/extraction/lib/rome-0.9.jar' to classloader
+INFO  - 2017-06-17 18:53:15.776; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/extraction/lib/tagsoup-1.2.1.jar' to classloader
+INFO  - 2017-06-17 18:53:15.776; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/extraction/lib/tika-core-1.5.jar' to classloader
+INFO  - 2017-06-17 18:53:15.776; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/extraction/lib/tika-parsers-1.5.jar' to classloader
+INFO  - 2017-06-17 18:53:15.777; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/extraction/lib/tika-xmp-1.5.jar' to classloader
+INFO  - 2017-06-17 18:53:15.777; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/extraction/lib/vorbis-java-core-0.1.jar' to classloader
+INFO  - 2017-06-17 18:53:15.777; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/extraction/lib/vorbis-java-tika-0.1.jar' to classloader
+INFO  - 2017-06-17 18:53:15.778; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/extraction/lib/xercesImpl-2.9.1.jar' to classloader
+INFO  - 2017-06-17 18:53:15.778; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/extraction/lib/xmlbeans-2.6.0.jar' to classloader
+INFO  - 2017-06-17 18:53:15.778; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/extraction/lib/xmpcore-5.1.2.jar' to classloader
+INFO  - 2017-06-17 18:53:15.779; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/extraction/lib/xz-1.4.jar' to classloader
+INFO  - 2017-06-17 18:53:15.780; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/dist/solr-cell-4.10.4.jar' to classloader
+INFO  - 2017-06-17 18:53:15.781; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/clustering/lib/attributes-binder-1.2.1.jar' to classloader
+INFO  - 2017-06-17 18:53:15.782; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/clustering/lib/carrot2-mini-3.9.0.jar' to classloader
+INFO  - 2017-06-17 18:53:15.782; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/clustering/lib/hppc-0.5.2.jar' to classloader
+INFO  - 2017-06-17 18:53:15.782; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/clustering/lib/jackson-core-asl-1.9.13.jar' to classloader
+INFO  - 2017-06-17 18:53:15.782; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/clustering/lib/jackson-mapper-asl-1.9.13.jar' to classloader
+INFO  - 2017-06-17 18:53:15.783; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/clustering/lib/mahout-collections-1.0.jar' to classloader
+INFO  - 2017-06-17 18:53:15.783; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/clustering/lib/mahout-math-0.6.jar' to classloader
+INFO  - 2017-06-17 18:53:15.783; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/clustering/lib/simple-xml-2.7.jar' to classloader
+INFO  - 2017-06-17 18:53:15.784; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/dist/solr-clustering-4.10.4.jar' to classloader
+INFO  - 2017-06-17 18:53:15.785; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/langid/lib/jsonic-1.2.7.jar' to classloader
+INFO  - 2017-06-17 18:53:15.785; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/langid/lib/langdetect-1.1-20120112.jar' to classloader
+INFO  - 2017-06-17 18:53:15.786; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/dist/solr-langid-4.10.4.jar' to classloader
+INFO  - 2017-06-17 18:53:15.786; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/velocity/lib/commons-beanutils-1.8.3.jar' to classloader
+INFO  - 2017-06-17 18:53:15.787; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/velocity/lib/commons-collections-3.2.1.jar' to classloader
+INFO  - 2017-06-17 18:53:15.787; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/velocity/lib/velocity-1.7.jar' to classloader
+INFO  - 2017-06-17 18:53:15.788; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/velocity/lib/velocity-tools-2.0.jar' to classloader
+INFO  - 2017-06-17 18:53:15.789; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/dist/solr-velocity-4.10.4.jar' to classloader
+INFO  - 2017-06-17 18:53:15.895; org.apache.solr.update.SolrIndexConfig; IndexWriter infoStream solr logging is enabled
+INFO  - 2017-06-17 18:53:15.904; org.apache.solr.core.SolrConfig; Using Lucene MatchVersion: 4.10.4
+INFO  - 2017-06-17 18:53:16.111; org.apache.solr.core.SolrConfig; Loaded SolrConfig: solrconfig.xml
+INFO  - 2017-06-17 18:53:16.117; org.apache.solr.schema.IndexSchema; Reading Solr Schema from /Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/collection1/conf/schema.xml
+INFO  - 2017-06-17 18:53:16.181; org.apache.solr.schema.IndexSchema; [collection1] Schema name=example
+INFO  - 2017-06-17 18:53:16.595; org.apache.solr.schema.IndexSchema; unique key field: id
+INFO  - 2017-06-17 18:53:16.607; org.apache.solr.rest.RestManager$Registry; Registered ManagedResource impl org.apache.solr.rest.schema.analysis.ManagedWordSetResource for path /schema/analysis/stopwords/english
+INFO  - 2017-06-17 18:53:16.608; org.apache.solr.rest.RestManager$Registry; Registered ManagedResource impl org.apache.solr.rest.schema.analysis.ManagedSynonymFilterFactory$SynonymManager for path /schema/analysis/synonyms/english
+INFO  - 2017-06-17 18:53:16.721; org.apache.solr.schema.FileExchangeRateProvider; Reloading exchange rates from file currency.xml
+INFO  - 2017-06-17 18:53:16.727; org.apache.solr.schema.FileExchangeRateProvider; Reloading exchange rates from file currency.xml
+INFO  - 2017-06-17 18:53:16.848; org.apache.solr.core.CoreContainer; Creating SolrCore 'collection1' using configuration from instancedir /Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/collection1/
+INFO  - 2017-06-17 18:53:16.882; org.apache.solr.core.SolrCore; solr.NRTCachingDirectoryFactory
+INFO  - 2017-06-17 18:53:16.890; org.apache.solr.core.SolrCore; [collection1] Opening new SolrCore at /Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/collection1/, dataDir=/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/collection1/data/
+INFO  - 2017-06-17 18:53:16.894; org.apache.solr.core.JmxMonitoredMap; No JMX servers found, not exposing Solr information with JMX.
+INFO  - 2017-06-17 18:53:16.901; org.apache.solr.core.SolrCore; [collection1] Added SolrEventListener for newSearcher: org.apache.solr.core.QuerySenderListener{queries=[]}
+INFO  - 2017-06-17 18:53:16.901; org.apache.solr.core.SolrCore; [collection1] Added SolrEventListener for firstSearcher: org.apache.solr.core.QuerySenderListener{queries=[{q=static firstSearcher warming in solrconfig.xml}]}
+INFO  - 2017-06-17 18:53:16.917; org.apache.solr.core.CachingDirectoryFactory; return new directory for /Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/collection1/data
+INFO  - 2017-06-17 18:53:16.922; org.apache.solr.core.SolrCore; New index directory detected: old=null new=/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/collection1/data/index/
+INFO  - 2017-06-17 18:53:16.923; org.apache.solr.core.CachingDirectoryFactory; return new directory for /Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/collection1/data/index
+INFO  - 2017-06-17 18:53:16.953; org.apache.solr.core.SolrCore; created json: solr.JSONResponseWriter
+INFO  - 2017-06-17 18:53:16.953; org.apache.solr.core.SolrCore; adding lazy queryResponseWriter: solr.VelocityResponseWriter
+INFO  - 2017-06-17 18:53:16.954; org.apache.solr.core.SolrCore; created velocity: solr.VelocityResponseWriter
+INFO  - 2017-06-17 18:53:16.958; org.apache.solr.core.SolrCore; created xslt: solr.XSLTResponseWriter
+INFO  - 2017-06-17 18:53:16.961; org.apache.solr.response.XSLTResponseWriter; xsltCacheLifetimeSeconds=5
+INFO  - 2017-06-17 18:53:17.069; org.apache.solr.core.SolrCore; no updateRequestProcessorChain defined as default, creating implicit default
+INFO  - 2017-06-17 18:53:17.081; org.apache.solr.core.RequestHandlers; created /update: org.apache.solr.handler.UpdateRequestHandler
+INFO  - 2017-06-17 18:53:17.082; org.apache.solr.core.RequestHandlers; created /update/json: org.apache.solr.handler.UpdateRequestHandler
+INFO  - 2017-06-17 18:53:17.082; org.apache.solr.core.RequestHandlers; created /update/csv: org.apache.solr.handler.UpdateRequestHandler
+INFO  - 2017-06-17 18:53:17.082; org.apache.solr.core.RequestHandlers; created /update/json/docs: org.apache.solr.handler.UpdateRequestHandler
+INFO  - 2017-06-17 18:53:17.088; org.apache.solr.core.RequestHandlers; created /select: solr.SearchHandler
+INFO  - 2017-06-17 18:53:17.088; org.apache.solr.core.RequestHandlers; created /query: solr.SearchHandler
+INFO  - 2017-06-17 18:53:17.090; org.apache.solr.core.RequestHandlers; created /get: solr.RealTimeGetHandler
+INFO  - 2017-06-17 18:53:17.091; org.apache.solr.core.RequestHandlers; created /export: solr.SearchHandler
+INFO  - 2017-06-17 18:53:17.091; org.apache.solr.core.RequestHandlers; created /browse: solr.SearchHandler
+WARN  - 2017-06-17 18:53:17.092; org.apache.solr.core.RequestHandlers; Multiple requestHandler registered to the same name: /update ignoring: org.apache.solr.handler.UpdateRequestHandler
+INFO  - 2017-06-17 18:53:17.093; org.apache.solr.core.RequestHandlers; created /update: solr.UpdateRequestHandler
+INFO  - 2017-06-17 18:53:17.093; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.extraction.ExtractingRequestHandler
+INFO  - 2017-06-17 18:53:17.094; org.apache.solr.core.RequestHandlers; created /update/extract: solr.extraction.ExtractingRequestHandler
+INFO  - 2017-06-17 18:53:17.094; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.FieldAnalysisRequestHandler
+INFO  - 2017-06-17 18:53:17.094; org.apache.solr.core.RequestHandlers; created /analysis/field: solr.FieldAnalysisRequestHandler
+INFO  - 2017-06-17 18:53:17.095; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.DocumentAnalysisRequestHandler
+INFO  - 2017-06-17 18:53:17.095; org.apache.solr.core.RequestHandlers; created /analysis/document: solr.DocumentAnalysisRequestHandler
+INFO  - 2017-06-17 18:53:17.097; org.apache.solr.core.RequestHandlers; created /admin/: solr.admin.AdminHandlers
+INFO  - 2017-06-17 18:53:17.100; org.apache.solr.core.RequestHandlers; created /admin/ping: solr.PingRequestHandler
+INFO  - 2017-06-17 18:53:17.101; org.apache.solr.core.RequestHandlers; created /debug/dump: solr.DumpRequestHandler
+INFO  - 2017-06-17 18:53:17.116; org.apache.solr.core.RequestHandlers; created /replication: solr.ReplicationHandler
+INFO  - 2017-06-17 18:53:17.116; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.SearchHandler
+INFO  - 2017-06-17 18:53:17.117; org.apache.solr.core.RequestHandlers; created /spell: solr.SearchHandler
+INFO  - 2017-06-17 18:53:17.117; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.SearchHandler
+INFO  - 2017-06-17 18:53:17.117; org.apache.solr.core.RequestHandlers; created /tvrh: solr.SearchHandler
+INFO  - 2017-06-17 18:53:17.118; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.SearchHandler
+INFO  - 2017-06-17 18:53:17.118; org.apache.solr.core.RequestHandlers; created /terms: solr.SearchHandler
+INFO  - 2017-06-17 18:53:17.118; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.SearchHandler
+INFO  - 2017-06-17 18:53:17.118; org.apache.solr.core.RequestHandlers; created /elevate: solr.SearchHandler
+INFO  - 2017-06-17 18:53:17.159; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2017-06-17 18:53:17.164; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2017-06-17 18:53:17.165; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2017-06-17 18:53:17.166; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2017-06-17 18:53:17.168; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2017-06-17 18:53:17.200; org.apache.solr.update.CommitTracker; Hard AutoCommit: if uncommited for 15000ms; 
+INFO  - 2017-06-17 18:53:17.200; org.apache.solr.update.CommitTracker; Soft AutoCommit: disabled
+INFO  - 2017-06-17 18:53:17.240; org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/collection1/data/index lockFactory=NativeFSLockFactory@/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/collection1/data/index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1,generation=1}
+INFO  - 2017-06-17 18:53:17.241; org.apache.solr.core.SolrDeletionPolicy; newest commit generation = 1
+INFO  - 2017-06-17 18:53:17.249; org.apache.solr.search.SolrIndexSearcher; Opening Searcher@7cef9fa3[collection1] main
+INFO  - 2017-06-17 18:53:17.258; org.apache.solr.rest.ManagedResourceStorage$FileStorageIO; File-based storage initialized to use dir: /Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/collection1/conf
+INFO  - 2017-06-17 18:53:17.258; org.apache.solr.rest.RestManager; Initializing RestManager with initArgs: {storageDir=/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/collection1/conf}
+INFO  - 2017-06-17 18:53:17.261; org.apache.solr.rest.ManagedResourceStorage; Reading _rest_managed.json using file:dir=/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/collection1/conf
+INFO  - 2017-06-17 18:53:17.274; org.apache.solr.rest.ManagedResourceStorage; Loaded LinkedHashMap at path _rest_managed.json using file:dir=/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/collection1/conf
+INFO  - 2017-06-17 18:53:17.274; org.apache.solr.rest.ManagedResource; Loaded initArgs {} for /rest/managed
+INFO  - 2017-06-17 18:53:17.275; org.apache.solr.rest.RestManager; Initializing 2 registered ManagedResources
+INFO  - 2017-06-17 18:53:17.276; org.apache.solr.rest.ManagedResourceStorage; Reading _schema_analysis_stopwords_english.json using file:dir=/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/collection1/conf
+INFO  - 2017-06-17 18:53:17.277; org.apache.solr.rest.ManagedResourceStorage; Loaded LinkedHashMap at path _schema_analysis_stopwords_english.json using file:dir=/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/collection1/conf
+INFO  - 2017-06-17 18:53:17.278; org.apache.solr.rest.ManagedResource; Loaded initArgs {ignoreCase=true} for /schema/analysis/stopwords/english
+INFO  - 2017-06-17 18:53:17.279; org.apache.solr.rest.schema.analysis.ManagedWordSetResource; Loaded 35 words for /schema/analysis/stopwords/english
+INFO  - 2017-06-17 18:53:17.280; org.apache.solr.rest.ManagedResource; Notified 1 observers of /schema/analysis/stopwords/english
+INFO  - 2017-06-17 18:53:17.281; org.apache.solr.rest.ManagedResourceStorage; Reading _schema_analysis_synonyms_english.json using file:dir=/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/collection1/conf
+INFO  - 2017-06-17 18:53:17.283; org.apache.solr.rest.ManagedResourceStorage; Loaded LinkedHashMap at path _schema_analysis_synonyms_english.json using file:dir=/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/collection1/conf
+INFO  - 2017-06-17 18:53:17.283; org.apache.solr.rest.ManagedResource; Loaded initArgs {ignoreCase=true,format=solr} for /schema/analysis/synonyms/english
+INFO  - 2017-06-17 18:53:17.284; org.apache.solr.rest.schema.analysis.ManagedSynonymFilterFactory$SynonymManager; Loaded 3 synonym mappings for /schema/analysis/synonyms/english
+INFO  - 2017-06-17 18:53:17.287; org.apache.solr.rest.ManagedResource; Notified 1 observers of /schema/analysis/synonyms/english
+INFO  - 2017-06-17 18:53:17.287; org.apache.solr.handler.component.SpellCheckComponent; Initializing spell checkers
+INFO  - 2017-06-17 18:53:17.295; org.apache.solr.spelling.DirectSolrSpellChecker; init: {name=default,field=text,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+INFO  - 2017-06-17 18:53:17.301; org.apache.solr.handler.component.SpellCheckComponent; No queryConverter defined, using default converter
+INFO  - 2017-06-17 18:53:17.304; org.apache.solr.handler.component.QueryElevationComponent; Loading QueryElevation from: /Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/collection1/conf/elevate.xml
+INFO  - 2017-06-17 18:53:52.341; org.apache.solr.handler.ReplicationHandler; Commits will be reserved for  10000
+INFO  - 2017-06-17 18:53:52.342; org.apache.solr.core.QuerySenderListener; QuerySenderListener sending requests to Searcher@7cef9fa3[collection1] main{StandardDirectoryReader(segments_1:1:nrt)}
+INFO  - 2017-06-17 18:53:52.343; org.apache.solr.core.CoreContainer; registering core: collection1
+INFO  - 2017-06-17 18:53:52.346; org.apache.solr.servlet.SolrDispatchFilter; user.dir=/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example
+INFO  - 2017-06-17 18:53:52.346; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init() done
+INFO  - 2017-06-17 18:53:52.384; org.eclipse.jetty.server.AbstractConnector; Started SocketConnector@0.0.0.0:8983
+INFO  - 2017-06-17 18:53:52.401; org.apache.solr.core.SolrCore; [collection1] webapp=null path=null params={q=static+firstSearcher+warming+in+solrconfig.xml&distrib=false&event=firstSearcher} hits=0 status=0 QTime=56 
+INFO  - 2017-06-17 18:53:52.401; org.apache.solr.core.QuerySenderListener; QuerySenderListener done.
+INFO  - 2017-06-17 18:53:52.402; org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener; Loading spell index for spellchecker: default
+INFO  - 2017-06-17 18:53:52.402; org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener; Loading spell index for spellchecker: wordbreak
+INFO  - 2017-06-17 18:53:52.402; org.apache.solr.core.SolrCore; [collection1] Registered new searcher Searcher@7cef9fa3[collection1] main{StandardDirectoryReader(segments_1:1:nrt)}
+INFO  - 2017-06-17 18:54:04.014; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1497696844002} status=0 QTime=4 
+INFO  - 2017-06-17 18:54:04.115; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/system params={wt=json&_=1497696844048} status=0 QTime=62 
+INFO  - 2017-06-17 18:54:06.251; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={wt=json&_=1497696846234} status=0 QTime=4 
+INFO  - 2017-06-17 18:54:06.290; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={wt=json&_=1497696846274} status=0 QTime=0 
+INFO  - 2017-06-17 18:55:51.135; org.apache.solr.handler.admin.CoreAdminHandler; core create command schema=schema.xml&dataDir=data&name=blog&indexInfo=false&action=CREATE&collection=&shard=&wt=json&instanceDir=blog&config=solrconfig.xml&_=1497696951127
+INFO  - 2017-06-17 18:55:51.137; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'solr/blog/'
+ERROR - 2017-06-17 18:55:51.161; org.apache.solr.core.CoreContainer; Error creating core [blog]: Could not load conf for core blog: Error loading solr config from solr/blog/conf/solrconfig.xml
+org.apache.solr.common.SolrException: Could not load conf for core blog: Error loading solr config from solr/blog/conf/solrconfig.xml
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:66)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:489)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:466)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleCreateAction(CoreAdminHandler.java:575)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestInternal(CoreAdminHandler.java:199)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestBody(CoreAdminHandler.java:188)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:135)
+	at org.apache.solr.servlet.SolrDispatchFilter.handleAdminRequest(SolrDispatchFilter.java:729)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:258)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:207)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1419)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:368)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:942)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1004)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:640)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
+	at org.eclipse.jetty.server.bio.SocketConnector$ConnectorEndPoint.run(SocketConnector.java:264)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.solr.common.SolrException: Error loading solr config from solr/blog/conf/solrconfig.xml
+	at org.apache.solr.core.SolrConfig.readFromResourceLoader(SolrConfig.java:154)
+	at org.apache.solr.core.ConfigSetService.createSolrConfig(ConfigSetService.java:80)
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:61)
+	... 34 more
+Caused by: java.io.IOException: Can't find resource 'solrconfig.xml' in classpath or '/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/blog/conf'
+	at org.apache.solr.core.SolrResourceLoader.openResource(SolrResourceLoader.java:362)
+	at org.apache.solr.core.SolrResourceLoader.openConfig(SolrResourceLoader.java:308)
+	at org.apache.solr.core.Config.<init>(Config.java:117)
+	at org.apache.solr.core.Config.<init>(Config.java:87)
+	at org.apache.solr.core.SolrConfig.<init>(SolrConfig.java:167)
+	at org.apache.solr.core.SolrConfig.readFromResourceLoader(SolrConfig.java:145)
+	... 36 more
+ERROR - 2017-06-17 18:55:51.165; org.apache.solr.common.SolrException; org.apache.solr.common.SolrException: Error CREATEing SolrCore 'blog': Unable to create core [blog] Caused by: Can't find resource 'solrconfig.xml' in classpath or '/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/blog/conf'
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleCreateAction(CoreAdminHandler.java:613)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestInternal(CoreAdminHandler.java:199)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestBody(CoreAdminHandler.java:188)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:135)
+	at org.apache.solr.servlet.SolrDispatchFilter.handleAdminRequest(SolrDispatchFilter.java:729)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:258)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:207)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1419)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:368)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:942)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1004)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:640)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
+	at org.eclipse.jetty.server.bio.SocketConnector$ConnectorEndPoint.run(SocketConnector.java:264)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.solr.common.SolrException: Unable to create core [blog]
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:507)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:466)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleCreateAction(CoreAdminHandler.java:575)
+	... 31 more
+Caused by: org.apache.solr.common.SolrException: Could not load conf for core blog: Error loading solr config from solr/blog/conf/solrconfig.xml
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:66)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:489)
+	... 33 more
+Caused by: org.apache.solr.common.SolrException: Error loading solr config from solr/blog/conf/solrconfig.xml
+	at org.apache.solr.core.SolrConfig.readFromResourceLoader(SolrConfig.java:154)
+	at org.apache.solr.core.ConfigSetService.createSolrConfig(ConfigSetService.java:80)
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:61)
+	... 34 more
+Caused by: java.io.IOException: Can't find resource 'solrconfig.xml' in classpath or '/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/blog/conf'
+	at org.apache.solr.core.SolrResourceLoader.openResource(SolrResourceLoader.java:362)
+	at org.apache.solr.core.SolrResourceLoader.openConfig(SolrResourceLoader.java:308)
+	at org.apache.solr.core.Config.<init>(Config.java:117)
+	at org.apache.solr.core.Config.<init>(Config.java:87)
+	at org.apache.solr.core.SolrConfig.<init>(SolrConfig.java:167)
+	at org.apache.solr.core.SolrConfig.readFromResourceLoader(SolrConfig.java:145)
+	... 36 more
+
+INFO  - 2017-06-17 18:55:51.166; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={schema=schema.xml&dataDir=data&name=blog&indexInfo=false&action=CREATE&collection=&shard=&wt=json&instanceDir=blog&config=solrconfig.xml&_=1497696951127} status=400 QTime=31 
+INFO  - 2017-06-17 18:56:48.417; org.eclipse.jetty.server.Server; Graceful shutdown SocketConnector@0.0.0.0:8983
+INFO  - 2017-06-17 18:56:48.418; org.eclipse.jetty.server.Server; Graceful shutdown o.e.j.w.WebAppContext{/solr,file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr-webapp/webapp/},/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/webapps/solr.war
+INFO  - 2017-06-17 18:56:49.420; org.apache.solr.core.CoreContainer; Shutting down CoreContainer instance=1456339771
+INFO  - 2017-06-17 18:56:49.421; org.apache.solr.core.SolrCore; [collection1]  CLOSING SolrCore org.apache.solr.core.SolrCore@41c81d39
+INFO  - 2017-06-17 18:56:49.422; org.apache.solr.update.DirectUpdateHandler2; closing DirectUpdateHandler2{commits=0,autocommit maxTime=15000ms,autocommits=0,soft autocommits=0,optimizes=0,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=0,cumulative_deletesById=0,cumulative_deletesByQuery=0,cumulative_errors=0,transaction_logs_total_size=0,transaction_logs_total_number=0}
+INFO  - 2017-06-17 18:56:49.422; org.apache.solr.update.SolrCoreState; Closing SolrCoreState
+INFO  - 2017-06-17 18:56:49.423; org.apache.solr.update.DefaultSolrCoreState; SolrCoreState ref count has reached 0 - closing IndexWriter
+INFO  - 2017-06-17 18:56:49.423; org.apache.solr.update.DefaultSolrCoreState; closing IndexWriter with IndexWriterCloser
+INFO  - 2017-06-17 18:56:49.430; org.apache.solr.core.SolrCore; [collection1] Closing main searcher on request.
+INFO  - 2017-06-17 18:56:49.431; org.apache.solr.core.CachingDirectoryFactory; Closing NRTCachingDirectoryFactory - 2 directories currently being tracked
+INFO  - 2017-06-17 18:56:49.432; org.apache.solr.core.CachingDirectoryFactory; looking to close /Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/collection1/data [CachedDir<<refCount=0;path=/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/collection1/data;done=false>>]
+INFO  - 2017-06-17 18:56:49.432; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/collection1/data
+INFO  - 2017-06-17 18:56:49.433; org.apache.solr.core.CachingDirectoryFactory; looking to close /Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/collection1/data/index [CachedDir<<refCount=0;path=/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/collection1/data/index;done=false>>]
+INFO  - 2017-06-17 18:56:49.433; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/collection1/data/index
+INFO  - 2017-06-17 18:56:49.435; org.eclipse.jetty.server.handler.ContextHandler; stopped o.e.j.w.WebAppContext{/solr,file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr-webapp/webapp/},/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/webapps/solr.war
+INFO  - 2017-06-17 18:58:05.026; org.eclipse.jetty.server.Server; jetty-8.1.10.v20130312
+INFO  - 2017-06-17 18:58:05.055; org.eclipse.jetty.deploy.providers.ScanningAppProvider; Deployment monitor /Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/contexts at interval 0
+INFO  - 2017-06-17 18:58:05.062; org.eclipse.jetty.deploy.DeploymentManager; Deployable added: /Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/contexts/solr-jetty-context.xml
+INFO  - 2017-06-17 18:58:06.175; org.eclipse.jetty.webapp.StandardDescriptorProcessor; NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+INFO  - 2017-06-17 18:58:06.234; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init()
+INFO  - 2017-06-17 18:58:06.247; org.apache.solr.core.SolrResourceLoader; JNDI not configured for solr (NoInitialContextEx)
+INFO  - 2017-06-17 18:58:06.247; org.apache.solr.core.SolrResourceLoader; solr home defaulted to 'solr/' (could not find system property or JNDI)
+INFO  - 2017-06-17 18:58:06.248; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'solr/'
+INFO  - 2017-06-17 18:58:06.399; org.apache.solr.core.ConfigSolr; Loading container configuration from /Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/solr.xml
+INFO  - 2017-06-17 18:58:06.480; org.apache.solr.core.CorePropertiesLocator; Config-defined core root directory: /Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr
+INFO  - 2017-06-17 18:58:06.489; org.apache.solr.core.CoreContainer; New CoreContainer 1456339771
+INFO  - 2017-06-17 18:58:06.489; org.apache.solr.core.CoreContainer; Loading cores into CoreContainer [instanceDir=solr/]
+INFO  - 2017-06-17 18:58:06.503; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting socketTimeout to: 0
+INFO  - 2017-06-17 18:58:06.503; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting urlScheme to: null
+INFO  - 2017-06-17 18:58:06.517; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting connTimeout to: 0
+INFO  - 2017-06-17 18:58:06.518; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxConnectionsPerHost to: 20
+INFO  - 2017-06-17 18:58:06.524; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting corePoolSize to: 0
+INFO  - 2017-06-17 18:58:06.525; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maximumPoolSize to: 2147483647
+INFO  - 2017-06-17 18:58:06.525; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxThreadIdleTime to: 5
+INFO  - 2017-06-17 18:58:06.527; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting sizeOfQueue to: -1
+INFO  - 2017-06-17 18:58:06.528; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting fairnessPolicy to: false
+INFO  - 2017-06-17 18:58:06.528; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting useRetries to: false
+INFO  - 2017-06-17 18:58:06.879; org.apache.solr.update.UpdateShardHandler; Creating UpdateShardHandler HTTP client with params: socketTimeout=0&connTimeout=0&retry=true
+INFO  - 2017-06-17 18:58:06.882; org.apache.solr.logging.LogWatcher; SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+INFO  - 2017-06-17 18:58:06.886; org.apache.solr.logging.LogWatcher; Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+INFO  - 2017-06-17 18:58:06.888; org.apache.solr.core.CoreContainer; Host Name: 
+INFO  - 2017-06-17 18:58:41.936; org.apache.solr.core.CorePropertiesLocator; Looking for core definitions underneath /Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr
+INFO  - 2017-06-17 18:58:41.949; org.apache.solr.core.CorePropertiesLocator; Found core collection1 in /Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/collection1/
+INFO  - 2017-06-17 18:58:41.950; org.apache.solr.core.CorePropertiesLocator; Found 1 core definitions
+INFO  - 2017-06-17 18:58:41.953; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: '/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/collection1/'
+INFO  - 2017-06-17 18:58:42.037; org.apache.solr.core.SolrConfig; Adding specified lib dirs to ClassLoader
+INFO  - 2017-06-17 18:58:42.039; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/extraction/lib/apache-mime4j-core-0.7.2.jar' to classloader
+INFO  - 2017-06-17 18:58:42.040; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/extraction/lib/apache-mime4j-dom-0.7.2.jar' to classloader
+INFO  - 2017-06-17 18:58:42.040; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/extraction/lib/aspectjrt-1.6.11.jar' to classloader
+INFO  - 2017-06-17 18:58:42.040; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/extraction/lib/bcmail-jdk15-1.45.jar' to classloader
+INFO  - 2017-06-17 18:58:42.041; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/extraction/lib/bcprov-jdk15-1.45.jar' to classloader
+INFO  - 2017-06-17 18:58:42.041; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/extraction/lib/boilerpipe-1.1.0.jar' to classloader
+INFO  - 2017-06-17 18:58:42.041; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/extraction/lib/commons-compress-1.7.jar' to classloader
+INFO  - 2017-06-17 18:58:42.042; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/extraction/lib/dom4j-1.6.1.jar' to classloader
+INFO  - 2017-06-17 18:58:42.042; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/extraction/lib/fontbox-1.8.4.jar' to classloader
+INFO  - 2017-06-17 18:58:42.042; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/extraction/lib/icu4j-53.1.jar' to classloader
+INFO  - 2017-06-17 18:58:42.042; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/extraction/lib/isoparser-1.0-RC-1.jar' to classloader
+INFO  - 2017-06-17 18:58:42.043; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/extraction/lib/jdom-1.0.jar' to classloader
+INFO  - 2017-06-17 18:58:42.043; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/extraction/lib/jempbox-1.8.4.jar' to classloader
+INFO  - 2017-06-17 18:58:42.043; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/extraction/lib/jhighlight-1.0.jar' to classloader
+INFO  - 2017-06-17 18:58:42.044; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/extraction/lib/juniversalchardet-1.0.3.jar' to classloader
+INFO  - 2017-06-17 18:58:42.045; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/extraction/lib/metadata-extractor-2.6.2.jar' to classloader
+INFO  - 2017-06-17 18:58:42.045; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/extraction/lib/pdfbox-1.8.4.jar' to classloader
+INFO  - 2017-06-17 18:58:42.045; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/extraction/lib/poi-3.10.1.jar' to classloader
+INFO  - 2017-06-17 18:58:42.046; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/extraction/lib/poi-ooxml-3.10.1.jar' to classloader
+INFO  - 2017-06-17 18:58:42.046; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/extraction/lib/poi-ooxml-schemas-3.10.1.jar' to classloader
+INFO  - 2017-06-17 18:58:42.047; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/extraction/lib/poi-scratchpad-3.10.1.jar' to classloader
+INFO  - 2017-06-17 18:58:42.047; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/extraction/lib/rome-0.9.jar' to classloader
+INFO  - 2017-06-17 18:58:42.047; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/extraction/lib/tagsoup-1.2.1.jar' to classloader
+INFO  - 2017-06-17 18:58:42.048; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/extraction/lib/tika-core-1.5.jar' to classloader
+INFO  - 2017-06-17 18:58:42.048; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/extraction/lib/tika-parsers-1.5.jar' to classloader
+INFO  - 2017-06-17 18:58:42.048; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/extraction/lib/tika-xmp-1.5.jar' to classloader
+INFO  - 2017-06-17 18:58:42.049; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/extraction/lib/vorbis-java-core-0.1.jar' to classloader
+INFO  - 2017-06-17 18:58:42.049; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/extraction/lib/vorbis-java-tika-0.1.jar' to classloader
+INFO  - 2017-06-17 18:58:42.049; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/extraction/lib/xercesImpl-2.9.1.jar' to classloader
+INFO  - 2017-06-17 18:58:42.050; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/extraction/lib/xmlbeans-2.6.0.jar' to classloader
+INFO  - 2017-06-17 18:58:42.050; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/extraction/lib/xmpcore-5.1.2.jar' to classloader
+INFO  - 2017-06-17 18:58:42.051; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/extraction/lib/xz-1.4.jar' to classloader
+INFO  - 2017-06-17 18:58:42.052; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/dist/solr-cell-4.10.4.jar' to classloader
+INFO  - 2017-06-17 18:58:42.053; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/clustering/lib/attributes-binder-1.2.1.jar' to classloader
+INFO  - 2017-06-17 18:58:42.053; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/clustering/lib/carrot2-mini-3.9.0.jar' to classloader
+INFO  - 2017-06-17 18:58:42.054; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/clustering/lib/hppc-0.5.2.jar' to classloader
+INFO  - 2017-06-17 18:58:42.054; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/clustering/lib/jackson-core-asl-1.9.13.jar' to classloader
+INFO  - 2017-06-17 18:58:42.054; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/clustering/lib/jackson-mapper-asl-1.9.13.jar' to classloader
+INFO  - 2017-06-17 18:58:42.054; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/clustering/lib/mahout-collections-1.0.jar' to classloader
+INFO  - 2017-06-17 18:58:42.055; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/clustering/lib/mahout-math-0.6.jar' to classloader
+INFO  - 2017-06-17 18:58:42.055; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/clustering/lib/simple-xml-2.7.jar' to classloader
+INFO  - 2017-06-17 18:58:42.056; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/dist/solr-clustering-4.10.4.jar' to classloader
+INFO  - 2017-06-17 18:58:42.056; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/langid/lib/jsonic-1.2.7.jar' to classloader
+INFO  - 2017-06-17 18:58:42.057; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/langid/lib/langdetect-1.1-20120112.jar' to classloader
+INFO  - 2017-06-17 18:58:42.057; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/dist/solr-langid-4.10.4.jar' to classloader
+INFO  - 2017-06-17 18:58:42.058; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/velocity/lib/commons-beanutils-1.8.3.jar' to classloader
+INFO  - 2017-06-17 18:58:42.059; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/velocity/lib/commons-collections-3.2.1.jar' to classloader
+INFO  - 2017-06-17 18:58:42.059; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/velocity/lib/velocity-1.7.jar' to classloader
+INFO  - 2017-06-17 18:58:42.060; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/contrib/velocity/lib/velocity-tools-2.0.jar' to classloader
+INFO  - 2017-06-17 18:58:42.061; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/dist/solr-velocity-4.10.4.jar' to classloader
+INFO  - 2017-06-17 18:58:42.150; org.apache.solr.update.SolrIndexConfig; IndexWriter infoStream solr logging is enabled
+INFO  - 2017-06-17 18:58:42.159; org.apache.solr.core.SolrConfig; Using Lucene MatchVersion: 4.10.4
+INFO  - 2017-06-17 18:58:42.351; org.apache.solr.core.SolrConfig; Loaded SolrConfig: solrconfig.xml
+INFO  - 2017-06-17 18:58:42.361; org.apache.solr.schema.IndexSchema; Reading Solr Schema from /Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/collection1/conf/schema.xml
+INFO  - 2017-06-17 18:58:42.424; org.apache.solr.schema.IndexSchema; [collection1] Schema name=example
+INFO  - 2017-06-17 18:58:42.900; org.apache.solr.schema.IndexSchema; unique key field: id
+INFO  - 2017-06-17 18:58:42.915; org.apache.solr.rest.RestManager$Registry; Registered ManagedResource impl org.apache.solr.rest.schema.analysis.ManagedWordSetResource for path /schema/analysis/stopwords/english
+INFO  - 2017-06-17 18:58:42.916; org.apache.solr.rest.RestManager$Registry; Registered ManagedResource impl org.apache.solr.rest.schema.analysis.ManagedSynonymFilterFactory$SynonymManager for path /schema/analysis/synonyms/english
+INFO  - 2017-06-17 18:58:43.059; org.apache.solr.schema.FileExchangeRateProvider; Reloading exchange rates from file currency.xml
+INFO  - 2017-06-17 18:58:43.073; org.apache.solr.schema.FileExchangeRateProvider; Reloading exchange rates from file currency.xml
+INFO  - 2017-06-17 18:58:43.226; org.apache.solr.core.CoreContainer; Creating SolrCore 'collection1' using configuration from instancedir /Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/collection1/
+INFO  - 2017-06-17 18:58:43.258; org.apache.solr.core.SolrCore; solr.NRTCachingDirectoryFactory
+INFO  - 2017-06-17 18:58:43.265; org.apache.solr.core.SolrCore; [collection1] Opening new SolrCore at /Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/collection1/, dataDir=/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/collection1/data/
+INFO  - 2017-06-17 18:58:43.268; org.apache.solr.core.JmxMonitoredMap; No JMX servers found, not exposing Solr information with JMX.
+INFO  - 2017-06-17 18:58:43.274; org.apache.solr.core.SolrCore; [collection1] Added SolrEventListener for newSearcher: org.apache.solr.core.QuerySenderListener{queries=[]}
+INFO  - 2017-06-17 18:58:43.275; org.apache.solr.core.SolrCore; [collection1] Added SolrEventListener for firstSearcher: org.apache.solr.core.QuerySenderListener{queries=[{q=static firstSearcher warming in solrconfig.xml}]}
+INFO  - 2017-06-17 18:58:43.292; org.apache.solr.core.CachingDirectoryFactory; return new directory for /Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/collection1/data
+INFO  - 2017-06-17 18:58:43.294; org.apache.solr.core.SolrCore; New index directory detected: old=null new=/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/collection1/data/index/
+INFO  - 2017-06-17 18:58:43.295; org.apache.solr.core.CachingDirectoryFactory; return new directory for /Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/collection1/data/index
+INFO  - 2017-06-17 18:58:43.321; org.apache.solr.core.SolrCore; created json: solr.JSONResponseWriter
+INFO  - 2017-06-17 18:58:43.322; org.apache.solr.core.SolrCore; adding lazy queryResponseWriter: solr.VelocityResponseWriter
+INFO  - 2017-06-17 18:58:43.322; org.apache.solr.core.SolrCore; created velocity: solr.VelocityResponseWriter
+INFO  - 2017-06-17 18:58:43.325; org.apache.solr.core.SolrCore; created xslt: solr.XSLTResponseWriter
+INFO  - 2017-06-17 18:58:43.326; org.apache.solr.response.XSLTResponseWriter; xsltCacheLifetimeSeconds=5
+INFO  - 2017-06-17 18:58:43.426; org.apache.solr.core.SolrCore; no updateRequestProcessorChain defined as default, creating implicit default
+INFO  - 2017-06-17 18:58:43.443; org.apache.solr.core.RequestHandlers; created /update: org.apache.solr.handler.UpdateRequestHandler
+INFO  - 2017-06-17 18:58:43.443; org.apache.solr.core.RequestHandlers; created /update/json: org.apache.solr.handler.UpdateRequestHandler
+INFO  - 2017-06-17 18:58:43.444; org.apache.solr.core.RequestHandlers; created /update/csv: org.apache.solr.handler.UpdateRequestHandler
+INFO  - 2017-06-17 18:58:43.444; org.apache.solr.core.RequestHandlers; created /update/json/docs: org.apache.solr.handler.UpdateRequestHandler
+INFO  - 2017-06-17 18:58:43.451; org.apache.solr.core.RequestHandlers; created /select: solr.SearchHandler
+INFO  - 2017-06-17 18:58:43.451; org.apache.solr.core.RequestHandlers; created /query: solr.SearchHandler
+INFO  - 2017-06-17 18:58:43.453; org.apache.solr.core.RequestHandlers; created /get: solr.RealTimeGetHandler
+INFO  - 2017-06-17 18:58:43.453; org.apache.solr.core.RequestHandlers; created /export: solr.SearchHandler
+INFO  - 2017-06-17 18:58:43.454; org.apache.solr.core.RequestHandlers; created /browse: solr.SearchHandler
+WARN  - 2017-06-17 18:58:43.455; org.apache.solr.core.RequestHandlers; Multiple requestHandler registered to the same name: /update ignoring: org.apache.solr.handler.UpdateRequestHandler
+INFO  - 2017-06-17 18:58:43.456; org.apache.solr.core.RequestHandlers; created /update: solr.UpdateRequestHandler
+INFO  - 2017-06-17 18:58:43.456; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.extraction.ExtractingRequestHandler
+INFO  - 2017-06-17 18:58:43.457; org.apache.solr.core.RequestHandlers; created /update/extract: solr.extraction.ExtractingRequestHandler
+INFO  - 2017-06-17 18:58:43.457; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.FieldAnalysisRequestHandler
+INFO  - 2017-06-17 18:58:43.457; org.apache.solr.core.RequestHandlers; created /analysis/field: solr.FieldAnalysisRequestHandler
+INFO  - 2017-06-17 18:58:43.458; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.DocumentAnalysisRequestHandler
+INFO  - 2017-06-17 18:58:43.458; org.apache.solr.core.RequestHandlers; created /analysis/document: solr.DocumentAnalysisRequestHandler
+INFO  - 2017-06-17 18:58:43.461; org.apache.solr.core.RequestHandlers; created /admin/: solr.admin.AdminHandlers
+INFO  - 2017-06-17 18:58:43.465; org.apache.solr.core.RequestHandlers; created /admin/ping: solr.PingRequestHandler
+INFO  - 2017-06-17 18:58:43.470; org.apache.solr.core.RequestHandlers; created /debug/dump: solr.DumpRequestHandler
+INFO  - 2017-06-17 18:58:43.486; org.apache.solr.core.RequestHandlers; created /replication: solr.ReplicationHandler
+INFO  - 2017-06-17 18:58:43.486; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.SearchHandler
+INFO  - 2017-06-17 18:58:43.490; org.apache.solr.core.RequestHandlers; created /spell: solr.SearchHandler
+INFO  - 2017-06-17 18:58:43.491; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.SearchHandler
+INFO  - 2017-06-17 18:58:43.492; org.apache.solr.core.RequestHandlers; created /tvrh: solr.SearchHandler
+INFO  - 2017-06-17 18:58:43.492; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.SearchHandler
+INFO  - 2017-06-17 18:58:43.493; org.apache.solr.core.RequestHandlers; created /terms: solr.SearchHandler
+INFO  - 2017-06-17 18:58:43.493; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.SearchHandler
+INFO  - 2017-06-17 18:58:43.493; org.apache.solr.core.RequestHandlers; created /elevate: solr.SearchHandler
+INFO  - 2017-06-17 18:58:43.524; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2017-06-17 18:58:43.527; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2017-06-17 18:58:43.528; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2017-06-17 18:58:43.529; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2017-06-17 18:58:43.531; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2017-06-17 18:58:43.550; org.apache.solr.update.CommitTracker; Hard AutoCommit: if uncommited for 15000ms; 
+INFO  - 2017-06-17 18:58:43.550; org.apache.solr.update.CommitTracker; Soft AutoCommit: disabled
+INFO  - 2017-06-17 18:58:43.608; org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/collection1/data/index lockFactory=NativeFSLockFactory@/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/collection1/data/index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1,generation=1}
+INFO  - 2017-06-17 18:58:43.609; org.apache.solr.core.SolrDeletionPolicy; newest commit generation = 1
+INFO  - 2017-06-17 18:58:43.616; org.apache.solr.search.SolrIndexSearcher; Opening Searcher@431782b7[collection1] main
+INFO  - 2017-06-17 18:58:43.623; org.apache.solr.rest.ManagedResourceStorage$FileStorageIO; File-based storage initialized to use dir: /Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/collection1/conf
+INFO  - 2017-06-17 18:58:43.624; org.apache.solr.rest.RestManager; Initializing RestManager with initArgs: {storageDir=/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/collection1/conf}
+INFO  - 2017-06-17 18:58:43.627; org.apache.solr.rest.ManagedResourceStorage; Reading _rest_managed.json using file:dir=/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/collection1/conf
+INFO  - 2017-06-17 18:58:43.634; org.apache.solr.rest.ManagedResourceStorage; Loaded LinkedHashMap at path _rest_managed.json using file:dir=/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/collection1/conf
+INFO  - 2017-06-17 18:58:43.635; org.apache.solr.rest.ManagedResource; Loaded initArgs {} for /rest/managed
+INFO  - 2017-06-17 18:58:43.635; org.apache.solr.rest.RestManager; Initializing 2 registered ManagedResources
+INFO  - 2017-06-17 18:58:43.636; org.apache.solr.rest.ManagedResourceStorage; Reading _schema_analysis_stopwords_english.json using file:dir=/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/collection1/conf
+INFO  - 2017-06-17 18:58:43.639; org.apache.solr.rest.ManagedResourceStorage; Loaded LinkedHashMap at path _schema_analysis_stopwords_english.json using file:dir=/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/collection1/conf
+INFO  - 2017-06-17 18:58:43.640; org.apache.solr.rest.ManagedResource; Loaded initArgs {ignoreCase=true} for /schema/analysis/stopwords/english
+INFO  - 2017-06-17 18:58:43.641; org.apache.solr.rest.schema.analysis.ManagedWordSetResource; Loaded 35 words for /schema/analysis/stopwords/english
+INFO  - 2017-06-17 18:58:43.641; org.apache.solr.rest.ManagedResource; Notified 1 observers of /schema/analysis/stopwords/english
+INFO  - 2017-06-17 18:58:43.642; org.apache.solr.rest.ManagedResourceStorage; Reading _schema_analysis_synonyms_english.json using file:dir=/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/collection1/conf
+INFO  - 2017-06-17 18:58:43.644; org.apache.solr.rest.ManagedResourceStorage; Loaded LinkedHashMap at path _schema_analysis_synonyms_english.json using file:dir=/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/collection1/conf
+INFO  - 2017-06-17 18:58:43.646; org.apache.solr.rest.ManagedResource; Loaded initArgs {ignoreCase=true,format=solr} for /schema/analysis/synonyms/english
+INFO  - 2017-06-17 18:58:43.647; org.apache.solr.rest.schema.analysis.ManagedSynonymFilterFactory$SynonymManager; Loaded 3 synonym mappings for /schema/analysis/synonyms/english
+INFO  - 2017-06-17 18:58:43.651; org.apache.solr.rest.ManagedResource; Notified 1 observers of /schema/analysis/synonyms/english
+INFO  - 2017-06-17 18:58:43.651; org.apache.solr.handler.component.SpellCheckComponent; Initializing spell checkers
+INFO  - 2017-06-17 18:58:43.657; org.apache.solr.spelling.DirectSolrSpellChecker; init: {name=default,field=text,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+INFO  - 2017-06-17 18:58:43.664; org.apache.solr.handler.component.SpellCheckComponent; No queryConverter defined, using default converter
+INFO  - 2017-06-17 18:58:43.667; org.apache.solr.handler.component.QueryElevationComponent; Loading QueryElevation from: /Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/collection1/conf/elevate.xml
+INFO  - 2017-06-17 18:59:18.707; org.apache.solr.handler.ReplicationHandler; Commits will be reserved for  10000
+INFO  - 2017-06-17 18:59:18.711; org.apache.solr.core.QuerySenderListener; QuerySenderListener sending requests to Searcher@431782b7[collection1] main{StandardDirectoryReader(segments_1:1:nrt)}
+INFO  - 2017-06-17 18:59:18.711; org.apache.solr.core.CoreContainer; registering core: collection1
+INFO  - 2017-06-17 18:59:18.714; org.apache.solr.servlet.SolrDispatchFilter; user.dir=/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example
+INFO  - 2017-06-17 18:59:18.714; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init() done
+INFO  - 2017-06-17 18:59:18.742; org.eclipse.jetty.server.AbstractConnector; Started SocketConnector@0.0.0.0:8983
+INFO  - 2017-06-17 18:59:18.764; org.apache.solr.core.SolrCore; [collection1] webapp=null path=null params={q=static+firstSearcher+warming+in+solrconfig.xml&distrib=false&event=firstSearcher} hits=0 status=0 QTime=52 
+INFO  - 2017-06-17 18:59:18.765; org.apache.solr.core.QuerySenderListener; QuerySenderListener done.
+INFO  - 2017-06-17 18:59:18.765; org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener; Loading spell index for spellchecker: default
+INFO  - 2017-06-17 18:59:18.765; org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener; Loading spell index for spellchecker: wordbreak
+INFO  - 2017-06-17 18:59:18.766; org.apache.solr.core.SolrCore; [collection1] Registered new searcher Searcher@431782b7[collection1] main{StandardDirectoryReader(segments_1:1:nrt)}
+INFO  - 2017-06-17 18:59:20.680; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1497697160668} status=0 QTime=4 
+INFO  - 2017-06-17 18:59:20.759; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/system params={wt=json&_=1497697160711} status=0 QTime=41 
+INFO  - 2017-06-17 18:59:20.781; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={wt=json&_=1497697160772} status=0 QTime=3 
+INFO  - 2017-06-17 18:59:57.997; org.apache.solr.handler.admin.CoreAdminHandler; core create command schema=schema.xml&dataDir=data&name=blog&indexInfo=false&action=CREATE&collection=&shard=&wt=json&instanceDir=blog&config=solrconfig.xml&_=1497697197989
+INFO  - 2017-06-17 18:59:57.999; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'solr/blog/'
+ERROR - 2017-06-17 18:59:58.013; org.apache.solr.core.CoreContainer; Error creating core [blog]: Could not load conf for core blog: Error loading solr config from solr/blog/conf/solrconfig.xml
+org.apache.solr.common.SolrException: Could not load conf for core blog: Error loading solr config from solr/blog/conf/solrconfig.xml
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:66)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:489)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:466)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleCreateAction(CoreAdminHandler.java:575)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestInternal(CoreAdminHandler.java:199)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestBody(CoreAdminHandler.java:188)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:135)
+	at org.apache.solr.servlet.SolrDispatchFilter.handleAdminRequest(SolrDispatchFilter.java:729)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:258)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:207)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1419)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:368)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:942)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1004)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:640)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
+	at org.eclipse.jetty.server.bio.SocketConnector$ConnectorEndPoint.run(SocketConnector.java:264)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.solr.common.SolrException: Error loading solr config from solr/blog/conf/solrconfig.xml
+	at org.apache.solr.core.SolrConfig.readFromResourceLoader(SolrConfig.java:154)
+	at org.apache.solr.core.ConfigSetService.createSolrConfig(ConfigSetService.java:80)
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:61)
+	... 34 more
+Caused by: java.io.IOException: Can't find resource 'solrconfig.xml' in classpath or '/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/blog/conf'
+	at org.apache.solr.core.SolrResourceLoader.openResource(SolrResourceLoader.java:362)
+	at org.apache.solr.core.SolrResourceLoader.openConfig(SolrResourceLoader.java:308)
+	at org.apache.solr.core.Config.<init>(Config.java:117)
+	at org.apache.solr.core.Config.<init>(Config.java:87)
+	at org.apache.solr.core.SolrConfig.<init>(SolrConfig.java:167)
+	at org.apache.solr.core.SolrConfig.readFromResourceLoader(SolrConfig.java:145)
+	... 36 more
+ERROR - 2017-06-17 18:59:58.016; org.apache.solr.common.SolrException; org.apache.solr.common.SolrException: Error CREATEing SolrCore 'blog': Unable to create core [blog] Caused by: Can't find resource 'solrconfig.xml' in classpath or '/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/blog/conf'
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleCreateAction(CoreAdminHandler.java:613)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestInternal(CoreAdminHandler.java:199)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestBody(CoreAdminHandler.java:188)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:135)
+	at org.apache.solr.servlet.SolrDispatchFilter.handleAdminRequest(SolrDispatchFilter.java:729)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:258)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:207)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1419)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:368)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:942)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1004)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:640)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
+	at org.eclipse.jetty.server.bio.SocketConnector$ConnectorEndPoint.run(SocketConnector.java:264)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.solr.common.SolrException: Unable to create core [blog]
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:507)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:466)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleCreateAction(CoreAdminHandler.java:575)
+	... 31 more
+Caused by: org.apache.solr.common.SolrException: Could not load conf for core blog: Error loading solr config from solr/blog/conf/solrconfig.xml
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:66)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:489)
+	... 33 more
+Caused by: org.apache.solr.common.SolrException: Error loading solr config from solr/blog/conf/solrconfig.xml
+	at org.apache.solr.core.SolrConfig.readFromResourceLoader(SolrConfig.java:154)
+	at org.apache.solr.core.ConfigSetService.createSolrConfig(ConfigSetService.java:80)
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:61)
+	... 34 more
+Caused by: java.io.IOException: Can't find resource 'solrconfig.xml' in classpath or '/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/blog/conf'
+	at org.apache.solr.core.SolrResourceLoader.openResource(SolrResourceLoader.java:362)
+	at org.apache.solr.core.SolrResourceLoader.openConfig(SolrResourceLoader.java:308)
+	at org.apache.solr.core.Config.<init>(Config.java:117)
+	at org.apache.solr.core.Config.<init>(Config.java:87)
+	at org.apache.solr.core.SolrConfig.<init>(SolrConfig.java:167)
+	at org.apache.solr.core.SolrConfig.readFromResourceLoader(SolrConfig.java:145)
+	... 36 more
+
+INFO  - 2017-06-17 18:59:58.017; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={schema=schema.xml&dataDir=data&name=blog&indexInfo=false&action=CREATE&collection=&shard=&wt=json&instanceDir=blog&config=solrconfig.xml&_=1497697197989} status=400 QTime=20 
+INFO  - 2017-06-17 19:01:39.151; org.apache.solr.handler.admin.CoreAdminHandler; core create command schema=schema.xml&dataDir=data&name=blog&indexInfo=false&action=CREATE&collection=&shard=&wt=json&instanceDir=blog&config=solrconfig.xml&_=1497697299142
+INFO  - 2017-06-17 19:01:39.152; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'solr/blog/'
+ERROR - 2017-06-17 19:01:39.163; org.apache.solr.core.CoreContainer; Error creating core [blog]: Could not load conf for core blog: Error loading solr config from solr/blog/conf/solrconfig.xml
+org.apache.solr.common.SolrException: Could not load conf for core blog: Error loading solr config from solr/blog/conf/solrconfig.xml
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:66)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:489)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:466)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleCreateAction(CoreAdminHandler.java:575)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestInternal(CoreAdminHandler.java:199)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestBody(CoreAdminHandler.java:188)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:135)
+	at org.apache.solr.servlet.SolrDispatchFilter.handleAdminRequest(SolrDispatchFilter.java:729)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:258)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:207)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1419)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:368)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:942)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1004)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:640)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
+	at org.eclipse.jetty.server.bio.SocketConnector$ConnectorEndPoint.run(SocketConnector.java:264)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.solr.common.SolrException: Error loading solr config from solr/blog/conf/solrconfig.xml
+	at org.apache.solr.core.SolrConfig.readFromResourceLoader(SolrConfig.java:154)
+	at org.apache.solr.core.ConfigSetService.createSolrConfig(ConfigSetService.java:80)
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:61)
+	... 34 more
+Caused by: java.io.IOException: Can't find resource 'solrconfig.xml' in classpath or '/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/blog/conf'
+	at org.apache.solr.core.SolrResourceLoader.openResource(SolrResourceLoader.java:362)
+	at org.apache.solr.core.SolrResourceLoader.openConfig(SolrResourceLoader.java:308)
+	at org.apache.solr.core.Config.<init>(Config.java:117)
+	at org.apache.solr.core.Config.<init>(Config.java:87)
+	at org.apache.solr.core.SolrConfig.<init>(SolrConfig.java:167)
+	at org.apache.solr.core.SolrConfig.readFromResourceLoader(SolrConfig.java:145)
+	... 36 more
+ERROR - 2017-06-17 19:01:39.166; org.apache.solr.common.SolrException; org.apache.solr.common.SolrException: Error CREATEing SolrCore 'blog': Unable to create core [blog] Caused by: Can't find resource 'solrconfig.xml' in classpath or '/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/blog/conf'
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleCreateAction(CoreAdminHandler.java:613)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestInternal(CoreAdminHandler.java:199)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestBody(CoreAdminHandler.java:188)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:135)
+	at org.apache.solr.servlet.SolrDispatchFilter.handleAdminRequest(SolrDispatchFilter.java:729)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:258)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:207)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1419)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:368)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:942)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1004)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:640)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
+	at org.eclipse.jetty.server.bio.SocketConnector$ConnectorEndPoint.run(SocketConnector.java:264)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.solr.common.SolrException: Unable to create core [blog]
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:507)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:466)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleCreateAction(CoreAdminHandler.java:575)
+	... 31 more
+Caused by: org.apache.solr.common.SolrException: Could not load conf for core blog: Error loading solr config from solr/blog/conf/solrconfig.xml
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:66)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:489)
+	... 33 more
+Caused by: org.apache.solr.common.SolrException: Error loading solr config from solr/blog/conf/solrconfig.xml
+	at org.apache.solr.core.SolrConfig.readFromResourceLoader(SolrConfig.java:154)
+	at org.apache.solr.core.ConfigSetService.createSolrConfig(ConfigSetService.java:80)
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:61)
+	... 34 more
+Caused by: java.io.IOException: Can't find resource 'solrconfig.xml' in classpath or '/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/blog/conf'
+	at org.apache.solr.core.SolrResourceLoader.openResource(SolrResourceLoader.java:362)
+	at org.apache.solr.core.SolrResourceLoader.openConfig(SolrResourceLoader.java:308)
+	at org.apache.solr.core.Config.<init>(Config.java:117)
+	at org.apache.solr.core.Config.<init>(Config.java:87)
+	at org.apache.solr.core.SolrConfig.<init>(SolrConfig.java:167)
+	at org.apache.solr.core.SolrConfig.readFromResourceLoader(SolrConfig.java:145)
+	... 36 more
+
+INFO  - 2017-06-17 19:01:39.167; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={schema=schema.xml&dataDir=data&name=blog&indexInfo=false&action=CREATE&collection=&shard=&wt=json&instanceDir=blog&config=solrconfig.xml&_=1497697299142} status=400 QTime=16 
+INFO  - 2017-06-17 19:01:40.121; org.apache.solr.handler.admin.CoreAdminHandler; core create command schema=schema.xml&dataDir=data&name=blog&indexInfo=false&action=CREATE&collection=&shard=&wt=json&instanceDir=blog&config=solrconfig.xml&_=1497697300114
+INFO  - 2017-06-17 19:01:40.122; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'solr/blog/'
+ERROR - 2017-06-17 19:01:40.129; org.apache.solr.core.CoreContainer; Error creating core [blog]: Could not load conf for core blog: Error loading solr config from solr/blog/conf/solrconfig.xml
+org.apache.solr.common.SolrException: Could not load conf for core blog: Error loading solr config from solr/blog/conf/solrconfig.xml
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:66)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:489)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:466)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleCreateAction(CoreAdminHandler.java:575)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestInternal(CoreAdminHandler.java:199)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestBody(CoreAdminHandler.java:188)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:135)
+	at org.apache.solr.servlet.SolrDispatchFilter.handleAdminRequest(SolrDispatchFilter.java:729)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:258)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:207)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1419)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:368)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:942)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1004)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:640)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
+	at org.eclipse.jetty.server.bio.SocketConnector$ConnectorEndPoint.run(SocketConnector.java:264)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.solr.common.SolrException: Error loading solr config from solr/blog/conf/solrconfig.xml
+	at org.apache.solr.core.SolrConfig.readFromResourceLoader(SolrConfig.java:154)
+	at org.apache.solr.core.ConfigSetService.createSolrConfig(ConfigSetService.java:80)
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:61)
+	... 34 more
+Caused by: java.io.IOException: Can't find resource 'solrconfig.xml' in classpath or '/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/blog/conf'
+	at org.apache.solr.core.SolrResourceLoader.openResource(SolrResourceLoader.java:362)
+	at org.apache.solr.core.SolrResourceLoader.openConfig(SolrResourceLoader.java:308)
+	at org.apache.solr.core.Config.<init>(Config.java:117)
+	at org.apache.solr.core.Config.<init>(Config.java:87)
+	at org.apache.solr.core.SolrConfig.<init>(SolrConfig.java:167)
+	at org.apache.solr.core.SolrConfig.readFromResourceLoader(SolrConfig.java:145)
+	... 36 more
+ERROR - 2017-06-17 19:01:40.131; org.apache.solr.common.SolrException; org.apache.solr.common.SolrException: Error CREATEing SolrCore 'blog': Unable to create core [blog] Caused by: Can't find resource 'solrconfig.xml' in classpath or '/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/blog/conf'
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleCreateAction(CoreAdminHandler.java:613)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestInternal(CoreAdminHandler.java:199)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestBody(CoreAdminHandler.java:188)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:135)
+	at org.apache.solr.servlet.SolrDispatchFilter.handleAdminRequest(SolrDispatchFilter.java:729)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:258)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:207)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1419)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:368)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:942)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1004)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:640)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
+	at org.eclipse.jetty.server.bio.SocketConnector$ConnectorEndPoint.run(SocketConnector.java:264)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.solr.common.SolrException: Unable to create core [blog]
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:507)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:466)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleCreateAction(CoreAdminHandler.java:575)
+	... 31 more
+Caused by: org.apache.solr.common.SolrException: Could not load conf for core blog: Error loading solr config from solr/blog/conf/solrconfig.xml
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:66)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:489)
+	... 33 more
+Caused by: org.apache.solr.common.SolrException: Error loading solr config from solr/blog/conf/solrconfig.xml
+	at org.apache.solr.core.SolrConfig.readFromResourceLoader(SolrConfig.java:154)
+	at org.apache.solr.core.ConfigSetService.createSolrConfig(ConfigSetService.java:80)
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:61)
+	... 34 more
+Caused by: java.io.IOException: Can't find resource 'solrconfig.xml' in classpath or '/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/blog/conf'
+	at org.apache.solr.core.SolrResourceLoader.openResource(SolrResourceLoader.java:362)
+	at org.apache.solr.core.SolrResourceLoader.openConfig(SolrResourceLoader.java:308)
+	at org.apache.solr.core.Config.<init>(Config.java:117)
+	at org.apache.solr.core.Config.<init>(Config.java:87)
+	at org.apache.solr.core.SolrConfig.<init>(SolrConfig.java:167)
+	at org.apache.solr.core.SolrConfig.readFromResourceLoader(SolrConfig.java:145)
+	... 36 more
+
+INFO  - 2017-06-17 19:01:40.131; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={schema=schema.xml&dataDir=data&name=blog&indexInfo=false&action=CREATE&collection=&shard=&wt=json&instanceDir=blog&config=solrconfig.xml&_=1497697300114} status=400 QTime=10 
+INFO  - 2017-06-17 19:01:40.356; org.apache.solr.handler.admin.CoreAdminHandler; core create command schema=schema.xml&dataDir=data&name=blog&indexInfo=false&action=CREATE&collection=&shard=&wt=json&instanceDir=blog&config=solrconfig.xml&_=1497697300351
+INFO  - 2017-06-17 19:01:40.357; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'solr/blog/'
+ERROR - 2017-06-17 19:01:40.364; org.apache.solr.core.CoreContainer; Error creating core [blog]: Could not load conf for core blog: Error loading solr config from solr/blog/conf/solrconfig.xml
+org.apache.solr.common.SolrException: Could not load conf for core blog: Error loading solr config from solr/blog/conf/solrconfig.xml
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:66)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:489)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:466)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleCreateAction(CoreAdminHandler.java:575)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestInternal(CoreAdminHandler.java:199)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestBody(CoreAdminHandler.java:188)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:135)
+	at org.apache.solr.servlet.SolrDispatchFilter.handleAdminRequest(SolrDispatchFilter.java:729)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:258)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:207)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1419)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:368)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:942)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1004)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:640)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
+	at org.eclipse.jetty.server.bio.SocketConnector$ConnectorEndPoint.run(SocketConnector.java:264)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.solr.common.SolrException: Error loading solr config from solr/blog/conf/solrconfig.xml
+	at org.apache.solr.core.SolrConfig.readFromResourceLoader(SolrConfig.java:154)
+	at org.apache.solr.core.ConfigSetService.createSolrConfig(ConfigSetService.java:80)
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:61)
+	... 34 more
+Caused by: java.io.IOException: Can't find resource 'solrconfig.xml' in classpath or '/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/blog/conf'
+	at org.apache.solr.core.SolrResourceLoader.openResource(SolrResourceLoader.java:362)
+	at org.apache.solr.core.SolrResourceLoader.openConfig(SolrResourceLoader.java:308)
+	at org.apache.solr.core.Config.<init>(Config.java:117)
+	at org.apache.solr.core.Config.<init>(Config.java:87)
+	at org.apache.solr.core.SolrConfig.<init>(SolrConfig.java:167)
+	at org.apache.solr.core.SolrConfig.readFromResourceLoader(SolrConfig.java:145)
+	... 36 more
+ERROR - 2017-06-17 19:01:40.366; org.apache.solr.common.SolrException; org.apache.solr.common.SolrException: Error CREATEing SolrCore 'blog': Unable to create core [blog] Caused by: Can't find resource 'solrconfig.xml' in classpath or '/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/blog/conf'
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleCreateAction(CoreAdminHandler.java:613)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestInternal(CoreAdminHandler.java:199)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestBody(CoreAdminHandler.java:188)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:135)
+	at org.apache.solr.servlet.SolrDispatchFilter.handleAdminRequest(SolrDispatchFilter.java:729)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:258)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:207)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1419)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:368)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:942)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1004)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:640)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
+	at org.eclipse.jetty.server.bio.SocketConnector$ConnectorEndPoint.run(SocketConnector.java:264)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.solr.common.SolrException: Unable to create core [blog]
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:507)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:466)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleCreateAction(CoreAdminHandler.java:575)
+	... 31 more
+Caused by: org.apache.solr.common.SolrException: Could not load conf for core blog: Error loading solr config from solr/blog/conf/solrconfig.xml
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:66)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:489)
+	... 33 more
+Caused by: org.apache.solr.common.SolrException: Error loading solr config from solr/blog/conf/solrconfig.xml
+	at org.apache.solr.core.SolrConfig.readFromResourceLoader(SolrConfig.java:154)
+	at org.apache.solr.core.ConfigSetService.createSolrConfig(ConfigSetService.java:80)
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:61)
+	... 34 more
+Caused by: java.io.IOException: Can't find resource 'solrconfig.xml' in classpath or '/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/blog/conf'
+	at org.apache.solr.core.SolrResourceLoader.openResource(SolrResourceLoader.java:362)
+	at org.apache.solr.core.SolrResourceLoader.openConfig(SolrResourceLoader.java:308)
+	at org.apache.solr.core.Config.<init>(Config.java:117)
+	at org.apache.solr.core.Config.<init>(Config.java:87)
+	at org.apache.solr.core.SolrConfig.<init>(SolrConfig.java:167)
+	at org.apache.solr.core.SolrConfig.readFromResourceLoader(SolrConfig.java:145)
+	... 36 more
+
+INFO  - 2017-06-17 19:01:40.366; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={schema=schema.xml&dataDir=data&name=blog&indexInfo=false&action=CREATE&collection=&shard=&wt=json&instanceDir=blog&config=solrconfig.xml&_=1497697300351} status=400 QTime=10 
+INFO  - 2017-06-17 19:01:40.581; org.apache.solr.handler.admin.CoreAdminHandler; core create command schema=schema.xml&dataDir=data&name=blog&indexInfo=false&action=CREATE&collection=&shard=&wt=json&instanceDir=blog&config=solrconfig.xml&_=1497697300574
+INFO  - 2017-06-17 19:01:40.581; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'solr/blog/'
+ERROR - 2017-06-17 19:01:40.587; org.apache.solr.core.CoreContainer; Error creating core [blog]: Could not load conf for core blog: Error loading solr config from solr/blog/conf/solrconfig.xml
+org.apache.solr.common.SolrException: Could not load conf for core blog: Error loading solr config from solr/blog/conf/solrconfig.xml
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:66)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:489)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:466)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleCreateAction(CoreAdminHandler.java:575)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestInternal(CoreAdminHandler.java:199)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestBody(CoreAdminHandler.java:188)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:135)
+	at org.apache.solr.servlet.SolrDispatchFilter.handleAdminRequest(SolrDispatchFilter.java:729)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:258)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:207)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1419)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:368)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:942)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1004)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:640)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
+	at org.eclipse.jetty.server.bio.SocketConnector$ConnectorEndPoint.run(SocketConnector.java:264)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.solr.common.SolrException: Error loading solr config from solr/blog/conf/solrconfig.xml
+	at org.apache.solr.core.SolrConfig.readFromResourceLoader(SolrConfig.java:154)
+	at org.apache.solr.core.ConfigSetService.createSolrConfig(ConfigSetService.java:80)
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:61)
+	... 34 more
+Caused by: java.io.IOException: Can't find resource 'solrconfig.xml' in classpath or '/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/blog/conf'
+	at org.apache.solr.core.SolrResourceLoader.openResource(SolrResourceLoader.java:362)
+	at org.apache.solr.core.SolrResourceLoader.openConfig(SolrResourceLoader.java:308)
+	at org.apache.solr.core.Config.<init>(Config.java:117)
+	at org.apache.solr.core.Config.<init>(Config.java:87)
+	at org.apache.solr.core.SolrConfig.<init>(SolrConfig.java:167)
+	at org.apache.solr.core.SolrConfig.readFromResourceLoader(SolrConfig.java:145)
+	... 36 more
+ERROR - 2017-06-17 19:01:40.589; org.apache.solr.common.SolrException; org.apache.solr.common.SolrException: Error CREATEing SolrCore 'blog': Unable to create core [blog] Caused by: Can't find resource 'solrconfig.xml' in classpath or '/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/blog/conf'
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleCreateAction(CoreAdminHandler.java:613)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestInternal(CoreAdminHandler.java:199)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestBody(CoreAdminHandler.java:188)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:135)
+	at org.apache.solr.servlet.SolrDispatchFilter.handleAdminRequest(SolrDispatchFilter.java:729)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:258)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:207)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1419)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:368)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:942)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1004)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:640)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
+	at org.eclipse.jetty.server.bio.SocketConnector$ConnectorEndPoint.run(SocketConnector.java:264)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.solr.common.SolrException: Unable to create core [blog]
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:507)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:466)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleCreateAction(CoreAdminHandler.java:575)
+	... 31 more
+Caused by: org.apache.solr.common.SolrException: Could not load conf for core blog: Error loading solr config from solr/blog/conf/solrconfig.xml
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:66)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:489)
+	... 33 more
+Caused by: org.apache.solr.common.SolrException: Error loading solr config from solr/blog/conf/solrconfig.xml
+	at org.apache.solr.core.SolrConfig.readFromResourceLoader(SolrConfig.java:154)
+	at org.apache.solr.core.ConfigSetService.createSolrConfig(ConfigSetService.java:80)
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:61)
+	... 34 more
+Caused by: java.io.IOException: Can't find resource 'solrconfig.xml' in classpath or '/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/blog/conf'
+	at org.apache.solr.core.SolrResourceLoader.openResource(SolrResourceLoader.java:362)
+	at org.apache.solr.core.SolrResourceLoader.openConfig(SolrResourceLoader.java:308)
+	at org.apache.solr.core.Config.<init>(Config.java:117)
+	at org.apache.solr.core.Config.<init>(Config.java:87)
+	at org.apache.solr.core.SolrConfig.<init>(SolrConfig.java:167)
+	at org.apache.solr.core.SolrConfig.readFromResourceLoader(SolrConfig.java:145)
+	... 36 more
+
+INFO  - 2017-06-17 19:01:40.589; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={schema=schema.xml&dataDir=data&name=blog&indexInfo=false&action=CREATE&collection=&shard=&wt=json&instanceDir=blog&config=solrconfig.xml&_=1497697300574} status=400 QTime=8 
+INFO  - 2017-06-17 19:01:40.786; org.apache.solr.handler.admin.CoreAdminHandler; core create command schema=schema.xml&dataDir=data&name=blog&indexInfo=false&action=CREATE&collection=&shard=&wt=json&instanceDir=blog&config=solrconfig.xml&_=1497697300781
+INFO  - 2017-06-17 19:01:40.787; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'solr/blog/'
+ERROR - 2017-06-17 19:01:40.795; org.apache.solr.core.CoreContainer; Error creating core [blog]: Could not load conf for core blog: Error loading solr config from solr/blog/conf/solrconfig.xml
+org.apache.solr.common.SolrException: Could not load conf for core blog: Error loading solr config from solr/blog/conf/solrconfig.xml
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:66)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:489)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:466)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleCreateAction(CoreAdminHandler.java:575)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestInternal(CoreAdminHandler.java:199)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestBody(CoreAdminHandler.java:188)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:135)
+	at org.apache.solr.servlet.SolrDispatchFilter.handleAdminRequest(SolrDispatchFilter.java:729)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:258)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:207)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1419)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:368)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:942)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1004)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:640)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
+	at org.eclipse.jetty.server.bio.SocketConnector$ConnectorEndPoint.run(SocketConnector.java:264)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.solr.common.SolrException: Error loading solr config from solr/blog/conf/solrconfig.xml
+	at org.apache.solr.core.SolrConfig.readFromResourceLoader(SolrConfig.java:154)
+	at org.apache.solr.core.ConfigSetService.createSolrConfig(ConfigSetService.java:80)
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:61)
+	... 34 more
+Caused by: java.io.IOException: Can't find resource 'solrconfig.xml' in classpath or '/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/blog/conf'
+	at org.apache.solr.core.SolrResourceLoader.openResource(SolrResourceLoader.java:362)
+	at org.apache.solr.core.SolrResourceLoader.openConfig(SolrResourceLoader.java:308)
+	at org.apache.solr.core.Config.<init>(Config.java:117)
+	at org.apache.solr.core.Config.<init>(Config.java:87)
+	at org.apache.solr.core.SolrConfig.<init>(SolrConfig.java:167)
+	at org.apache.solr.core.SolrConfig.readFromResourceLoader(SolrConfig.java:145)
+	... 36 more
+ERROR - 2017-06-17 19:01:40.797; org.apache.solr.common.SolrException; org.apache.solr.common.SolrException: Error CREATEing SolrCore 'blog': Unable to create core [blog] Caused by: Can't find resource 'solrconfig.xml' in classpath or '/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/blog/conf'
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleCreateAction(CoreAdminHandler.java:613)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestInternal(CoreAdminHandler.java:199)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestBody(CoreAdminHandler.java:188)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:135)
+	at org.apache.solr.servlet.SolrDispatchFilter.handleAdminRequest(SolrDispatchFilter.java:729)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:258)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:207)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1419)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:368)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:942)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1004)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:640)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
+	at org.eclipse.jetty.server.bio.SocketConnector$ConnectorEndPoint.run(SocketConnector.java:264)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.solr.common.SolrException: Unable to create core [blog]
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:507)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:466)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleCreateAction(CoreAdminHandler.java:575)
+	... 31 more
+Caused by: org.apache.solr.common.SolrException: Could not load conf for core blog: Error loading solr config from solr/blog/conf/solrconfig.xml
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:66)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:489)
+	... 33 more
+Caused by: org.apache.solr.common.SolrException: Error loading solr config from solr/blog/conf/solrconfig.xml
+	at org.apache.solr.core.SolrConfig.readFromResourceLoader(SolrConfig.java:154)
+	at org.apache.solr.core.ConfigSetService.createSolrConfig(ConfigSetService.java:80)
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:61)
+	... 34 more
+Caused by: java.io.IOException: Can't find resource 'solrconfig.xml' in classpath or '/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/blog/conf'
+	at org.apache.solr.core.SolrResourceLoader.openResource(SolrResourceLoader.java:362)
+	at org.apache.solr.core.SolrResourceLoader.openConfig(SolrResourceLoader.java:308)
+	at org.apache.solr.core.Config.<init>(Config.java:117)
+	at org.apache.solr.core.Config.<init>(Config.java:87)
+	at org.apache.solr.core.SolrConfig.<init>(SolrConfig.java:167)
+	at org.apache.solr.core.SolrConfig.readFromResourceLoader(SolrConfig.java:145)
+	... 36 more
+
+INFO  - 2017-06-17 19:01:40.798; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={schema=schema.xml&dataDir=data&name=blog&indexInfo=false&action=CREATE&collection=&shard=&wt=json&instanceDir=blog&config=solrconfig.xml&_=1497697300781} status=400 QTime=12 
+INFO  - 2017-06-17 19:04:29.265; org.apache.solr.handler.admin.CoreAdminHandler; core create command schema=schema.xml&dataDir=data&name=blog&indexInfo=false&action=CREATE&collection=&shard=&wt=json&instanceDir=blog&config=solrconfig.xml&_=1497697469259
+INFO  - 2017-06-17 19:04:29.269; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'solr/blog/'
+INFO  - 2017-06-17 19:04:29.286; org.apache.solr.core.SolrConfig; Using Lucene MatchVersion: 3.6.0
+INFO  - 2017-06-17 19:04:29.307; org.apache.solr.core.SolrConfig; Loaded SolrConfig: solrconfig.xml
+INFO  - 2017-06-17 19:04:29.307; org.apache.solr.schema.IndexSchema; Reading Solr Schema from solr/blog/conf/schema.xml
+INFO  - 2017-06-17 19:04:29.320; org.apache.solr.schema.IndexSchema; [blog] Schema name=default
+WARN  - 2017-06-17 19:04:29.338; org.apache.solr.core.SolrResourceLoader; Solr loaded a deprecated plugin/analysis class [solr.SortableIntField]. Please consult documentation how to replace it accordingly.
+WARN  - 2017-06-17 19:04:29.343; org.apache.solr.core.SolrResourceLoader; Solr loaded a deprecated plugin/analysis class [solr.SortableLongField]. Please consult documentation how to replace it accordingly.
+WARN  - 2017-06-17 19:04:29.347; org.apache.solr.core.SolrResourceLoader; Solr loaded a deprecated plugin/analysis class [solr.SortableFloatField]. Please consult documentation how to replace it accordingly.
+WARN  - 2017-06-17 19:04:29.351; org.apache.solr.core.SolrResourceLoader; Solr loaded a deprecated plugin/analysis class [solr.SortableDoubleField]. Please consult documentation how to replace it accordingly.
+WARN  - 2017-06-17 19:04:29.380; org.apache.solr.schema.FieldTypePluginLoader; TokenizerFactory is using deprecated 3.6.0 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+WARN  - 2017-06-17 19:04:29.381; org.apache.solr.schema.FieldTypePluginLoader; TokenFilterFactory is using deprecated 3.6.0 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+WARN  - 2017-06-17 19:04:29.382; org.apache.solr.schema.FieldTypePluginLoader; TokenFilterFactory is using deprecated 3.6.0 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+WARN  - 2017-06-17 19:04:29.382; org.apache.solr.schema.FieldTypePluginLoader; TokenFilterFactory is using deprecated 3.6.0 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+WARN  - 2017-06-17 19:04:29.392; org.apache.solr.schema.FieldTypePluginLoader; TokenizerFactory is using deprecated 3.6.0 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+WARN  - 2017-06-17 19:04:29.392; org.apache.solr.schema.FieldTypePluginLoader; TokenFilterFactory is using deprecated 3.6.0 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+WARN  - 2017-06-17 19:04:29.393; org.apache.solr.schema.FieldTypePluginLoader; TokenFilterFactory is using deprecated 3.6.0 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+WARN  - 2017-06-17 19:04:29.396; org.apache.solr.schema.FieldTypePluginLoader; TokenizerFactory is using deprecated 3.6.0 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+WARN  - 2017-06-17 19:04:29.397; org.apache.solr.schema.FieldTypePluginLoader; TokenFilterFactory is using deprecated 3.6.0 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+WARN  - 2017-06-17 19:04:29.397; org.apache.solr.schema.FieldTypePluginLoader; TokenFilterFactory is using deprecated 3.6.0 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+WARN  - 2017-06-17 19:04:29.398; org.apache.solr.schema.FieldTypePluginLoader; TokenFilterFactory is using deprecated 3.6.0 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+WARN  - 2017-06-17 19:04:29.398; org.apache.solr.schema.FieldTypePluginLoader; TokenFilterFactory is using deprecated 3.6.0 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+WARN  - 2017-06-17 19:04:29.399; org.apache.solr.schema.FieldTypePluginLoader; TokenFilterFactory is using deprecated 3.6.0 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+WARN  - 2017-06-17 19:04:29.399; org.apache.solr.schema.FieldTypePluginLoader; TokenFilterFactory is using deprecated 3.6.0 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+WARN  - 2017-06-17 19:04:29.402; org.apache.solr.schema.FieldTypePluginLoader; TokenizerFactory is using deprecated 3.6.0 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+WARN  - 2017-06-17 19:04:29.402; org.apache.solr.schema.FieldTypePluginLoader; TokenFilterFactory is using deprecated 3.6.0 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+WARN  - 2017-06-17 19:04:29.403; org.apache.solr.schema.FieldTypePluginLoader; TokenFilterFactory is using deprecated 3.6.0 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+WARN  - 2017-06-17 19:04:29.403; org.apache.solr.schema.FieldTypePluginLoader; TokenFilterFactory is using deprecated 3.6.0 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+WARN  - 2017-06-17 19:04:29.403; org.apache.solr.schema.FieldTypePluginLoader; TokenFilterFactory is using deprecated 3.6.0 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+WARN  - 2017-06-17 19:04:29.404; org.apache.solr.schema.FieldTypePluginLoader; TokenFilterFactory is using deprecated 3.6.0 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+WARN  - 2017-06-17 19:04:29.411; org.apache.solr.schema.FieldTypePluginLoader; TokenizerFactory is using deprecated 3.6.0 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+WARN  - 2017-06-17 19:04:29.414; org.apache.solr.schema.FieldTypePluginLoader; TokenizerFactory is using deprecated 3.6.0 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+WARN  - 2017-06-17 19:04:29.415; org.apache.solr.schema.FieldTypePluginLoader; TokenFilterFactory is using deprecated 3.6.0 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+WARN  - 2017-06-17 19:04:29.417; org.apache.solr.schema.FieldTypePluginLoader; TokenizerFactory is using deprecated 3.6.0 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+WARN  - 2017-06-17 19:04:29.419; org.apache.solr.schema.FieldTypePluginLoader; TokenFilterFactory is using deprecated 3.6.0 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+WARN  - 2017-06-17 19:04:29.420; org.apache.solr.schema.FieldTypePluginLoader; TokenFilterFactory is using deprecated 3.6.0 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+WARN  - 2017-06-17 19:04:29.424; org.apache.solr.schema.FieldTypePluginLoader; TokenizerFactory is using deprecated 3.6.0 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+WARN  - 2017-06-17 19:04:29.425; org.apache.solr.schema.FieldTypePluginLoader; TokenFilterFactory is using deprecated 3.6.0 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+WARN  - 2017-06-17 19:04:29.425; org.apache.solr.schema.FieldTypePluginLoader; TokenFilterFactory is using deprecated 3.6.0 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+WARN  - 2017-06-17 19:04:29.429; org.apache.solr.schema.FieldTypePluginLoader; TokenizerFactory is using deprecated 3.6.0 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+WARN  - 2017-06-17 19:04:29.430; org.apache.solr.schema.FieldTypePluginLoader; TokenFilterFactory is using deprecated 3.6.0 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+WARN  - 2017-06-17 19:04:29.432; org.apache.solr.schema.FieldTypePluginLoader; TokenFilterFactory is using deprecated 3.6.0 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+WARN  - 2017-06-17 19:04:29.432; org.apache.solr.schema.FieldTypePluginLoader; TokenFilterFactory is using deprecated 3.6.0 emulation. You should at some point declare and reindex to at least 4.0, because 3.x emulation is deprecated and will be removed in 5.0
+INFO  - 2017-06-17 19:04:29.438; org.apache.solr.schema.IndexSchema; default search field in schema is text
+INFO  - 2017-06-17 19:04:29.439; org.apache.solr.schema.IndexSchema; query parser default operator is AND
+INFO  - 2017-06-17 19:04:29.440; org.apache.solr.schema.IndexSchema; unique key field: id
+INFO  - 2017-06-17 19:04:29.450; org.apache.solr.core.CoreContainer; Creating SolrCore 'blog' using configuration from instancedir solr/blog/
+INFO  - 2017-06-17 19:04:29.450; org.apache.solr.core.SolrCore; solr.NRTCachingDirectoryFactory
+INFO  - 2017-06-17 19:04:29.451; org.apache.solr.core.SolrCore; [blog] Opening new SolrCore at solr/blog/, dataDir=/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/blog/data/
+INFO  - 2017-06-17 19:04:29.451; org.apache.solr.core.SolrCore; JMX monitoring not detected for core: blog
+INFO  - 2017-06-17 19:04:29.452; org.apache.solr.core.CachingDirectoryFactory; return new directory for /Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/blog/data
+INFO  - 2017-06-17 19:04:29.453; org.apache.solr.core.SolrCore; New index directory detected: old=null new=/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/blog/data/index/
+WARN  - 2017-06-17 19:04:29.454; org.apache.solr.core.SolrCore; [blog] Solr index directory '/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/blog/data/index' doesn't exist. Creating new index...
+INFO  - 2017-06-17 19:04:29.454; org.apache.solr.core.CachingDirectoryFactory; return new directory for /Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/blog/data/index
+INFO  - 2017-06-17 19:04:29.464; org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onCommit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/blog/data/index lockFactory=NativeFSLockFactory@/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/blog/data/index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1,generation=1}
+INFO  - 2017-06-17 19:04:29.464; org.apache.solr.core.SolrDeletionPolicy; newest commit generation = 1
+INFO  - 2017-06-17 19:04:29.467; org.apache.solr.core.SolrCore; no updateRequestProcessorChain defined as default, creating implicit default
+INFO  - 2017-06-17 19:04:29.468; org.apache.solr.core.RequestHandlers; created /update: org.apache.solr.handler.UpdateRequestHandler
+INFO  - 2017-06-17 19:04:29.468; org.apache.solr.core.RequestHandlers; created /update/json: org.apache.solr.handler.UpdateRequestHandler
+INFO  - 2017-06-17 19:04:29.469; org.apache.solr.core.RequestHandlers; created /update/csv: org.apache.solr.handler.UpdateRequestHandler
+INFO  - 2017-06-17 19:04:29.469; org.apache.solr.core.RequestHandlers; created /update/json/docs: org.apache.solr.handler.UpdateRequestHandler
+INFO  - 2017-06-17 19:04:29.472; org.apache.solr.core.RequestHandlers; created /select: solr.StandardRequestHandler
+WARN  - 2017-06-17 19:04:29.472; org.apache.solr.core.RequestHandlers; Multiple requestHandler registered to the same name: /update ignoring: org.apache.solr.handler.UpdateRequestHandler
+INFO  - 2017-06-17 19:04:29.473; org.apache.solr.core.RequestHandlers; created /update: solr.UpdateRequestHandler
+INFO  - 2017-06-17 19:04:29.473; org.apache.solr.core.RequestHandlers; created /admin: solr.admin.AdminHandlers
+INFO  - 2017-06-17 19:04:29.473; org.apache.solr.core.RequestHandlers; created /admin/ping: solr.PingRequestHandler
+INFO  - 2017-06-17 19:04:29.476; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2017-06-17 19:04:29.477; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2017-06-17 19:04:29.478; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2017-06-17 19:04:29.479; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2017-06-17 19:04:29.480; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2017-06-17 19:04:29.481; org.apache.solr.update.CommitTracker; Hard AutoCommit: disabled
+INFO  - 2017-06-17 19:04:29.482; org.apache.solr.update.CommitTracker; Soft AutoCommit: disabled
+INFO  - 2017-06-17 19:04:29.484; org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/blog/data/index lockFactory=NativeFSLockFactory@/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/blog/data/index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1,generation=1}
+INFO  - 2017-06-17 19:04:29.484; org.apache.solr.core.SolrDeletionPolicy; newest commit generation = 1
+INFO  - 2017-06-17 19:04:29.485; org.apache.solr.search.SolrIndexSearcher; Opening Searcher@5ac58fa3[blog] main
+INFO  - 2017-06-17 19:04:29.485; org.apache.solr.rest.ManagedResourceStorage$FileStorageIO; File-based storage initialized to use dir: /Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/blog/conf
+INFO  - 2017-06-17 19:04:29.486; org.apache.solr.rest.RestManager; Initializing RestManager with initArgs: {storageDir=/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/blog/conf}
+INFO  - 2017-06-17 19:04:29.486; org.apache.solr.rest.ManagedResourceStorage; Reading _rest_managed.json using file:dir=/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/blog/conf
+WARN  - 2017-06-17 19:04:29.486; org.apache.solr.rest.ManagedResource; No stored data found for /rest/managed
+INFO  - 2017-06-17 19:04:29.490; org.apache.solr.rest.ManagedResourceStorage$JsonStorage; Saved JSON object to path _rest_managed.json using file:dir=/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/blog/conf
+INFO  - 2017-06-17 19:04:29.491; org.apache.solr.rest.RestManager; Initializing 0 registered ManagedResources
+INFO  - 2017-06-17 19:05:04.500; org.apache.solr.core.CoreContainer; registering core: blog
+INFO  - 2017-06-17 19:05:04.500; org.apache.solr.core.SolrCore; [blog] Registered new searcher Searcher@5ac58fa3[blog] main{StandardDirectoryReader(segments_1:1:nrt)}
+INFO  - 2017-06-17 19:05:04.511; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={schema=schema.xml&dataDir=data&name=blog&indexInfo=false&action=CREATE&collection=&shard=&wt=json&instanceDir=blog&config=solrconfig.xml&_=1497697469259} status=0 QTime=35246 
+INFO  - 2017-06-17 19:05:04.523; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={wt=json&_=1497697504516} status=0 QTime=2 
+INFO  - 2017-06-17 19:06:26.090; org.eclipse.jetty.server.Server; Graceful shutdown SocketConnector@0.0.0.0:8983
+INFO  - 2017-06-17 19:06:26.094; org.eclipse.jetty.server.Server; Graceful shutdown o.e.j.w.WebAppContext{/solr,file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr-webapp/webapp/},/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/webapps/solr.war
+INFO  - 2017-06-17 19:06:27.096; org.apache.solr.core.CoreContainer; Shutting down CoreContainer instance=1456339771
+INFO  - 2017-06-17 19:06:27.097; org.apache.solr.core.SolrCore; [collection1]  CLOSING SolrCore org.apache.solr.core.SolrCore@15786d17
+INFO  - 2017-06-17 19:06:27.097; org.apache.solr.update.DirectUpdateHandler2; closing DirectUpdateHandler2{commits=0,autocommit maxTime=15000ms,autocommits=0,soft autocommits=0,optimizes=0,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=0,cumulative_deletesById=0,cumulative_deletesByQuery=0,cumulative_errors=0,transaction_logs_total_size=0,transaction_logs_total_number=0}
+INFO  - 2017-06-17 19:06:27.098; org.apache.solr.update.SolrCoreState; Closing SolrCoreState
+INFO  - 2017-06-17 19:06:27.098; org.apache.solr.update.DefaultSolrCoreState; SolrCoreState ref count has reached 0 - closing IndexWriter
+INFO  - 2017-06-17 19:06:27.098; org.apache.solr.update.DefaultSolrCoreState; closing IndexWriter with IndexWriterCloser
+INFO  - 2017-06-17 19:06:27.104; org.apache.solr.core.SolrCore; [collection1] Closing main searcher on request.
+INFO  - 2017-06-17 19:06:27.105; org.apache.solr.core.CachingDirectoryFactory; Closing NRTCachingDirectoryFactory - 2 directories currently being tracked
+INFO  - 2017-06-17 19:06:27.106; org.apache.solr.core.CachingDirectoryFactory; looking to close /Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/collection1/data [CachedDir<<refCount=0;path=/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/collection1/data;done=false>>]
+INFO  - 2017-06-17 19:06:27.106; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/collection1/data
+INFO  - 2017-06-17 19:06:27.106; org.apache.solr.core.CachingDirectoryFactory; looking to close /Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/collection1/data/index [CachedDir<<refCount=0;path=/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/collection1/data/index;done=false>>]
+INFO  - 2017-06-17 19:06:27.107; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/collection1/data/index
+INFO  - 2017-06-17 19:06:27.107; org.apache.solr.core.SolrCore; [blog]  CLOSING SolrCore org.apache.solr.core.SolrCore@7146099d
+INFO  - 2017-06-17 19:06:27.107; org.apache.solr.update.DirectUpdateHandler2; closing DirectUpdateHandler2{commits=0,autocommits=0,soft autocommits=0,optimizes=0,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=0,cumulative_deletesById=0,cumulative_deletesByQuery=0,cumulative_errors=0}
+INFO  - 2017-06-17 19:06:27.107; org.apache.solr.update.SolrCoreState; Closing SolrCoreState
+INFO  - 2017-06-17 19:06:27.108; org.apache.solr.update.DefaultSolrCoreState; SolrCoreState ref count has reached 0 - closing IndexWriter
+INFO  - 2017-06-17 19:06:27.108; org.apache.solr.update.DefaultSolrCoreState; closing IndexWriter with IndexWriterCloser
+INFO  - 2017-06-17 19:06:27.110; org.apache.solr.core.SolrCore; [blog] Closing main searcher on request.
+INFO  - 2017-06-17 19:06:27.112; org.apache.solr.core.CachingDirectoryFactory; Closing NRTCachingDirectoryFactory - 2 directories currently being tracked
+INFO  - 2017-06-17 19:06:27.113; org.apache.solr.core.CachingDirectoryFactory; looking to close /Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/blog/data [CachedDir<<refCount=0;path=/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/blog/data;done=false>>]
+INFO  - 2017-06-17 19:06:27.113; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/blog/data
+INFO  - 2017-06-17 19:06:27.113; org.apache.solr.core.CachingDirectoryFactory; looking to close /Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/blog/data/index [CachedDir<<refCount=0;path=/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/blog/data/index;done=false>>]
+INFO  - 2017-06-17 19:06:27.113; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr/blog/data/index
+INFO  - 2017-06-17 19:06:27.115; org.eclipse.jetty.server.handler.ContextHandler; stopped o.e.j.w.WebAppContext{/solr,file:/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/solr-webapp/webapp/},/Users/linzhun/Documents/DjangoByExample/solr-4.10.4/example/webapps/solr.war
