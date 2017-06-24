@@ -2,6 +2,7 @@ from django.shortcuts import render
 from django.http import HttpResponse
 from django.contrib.auth import authenticate, login
 from .forms import LoginForm
+from django.contrib.auth.decorators import login_required
 
 
 # Create your views here.
@@ -25,3 +26,10 @@ def user_login(request):
     else:
         form = LoginForm()
     return render(request, 'account/login.html', {'form': form})
+
+# to create a new view to display a dashboard to the user when he logs in their account.
+@login_required
+def dashboard(request):
+    return render(request,
+                  'account/dashboard.html',
+                  {'section': 'dashboard'})
