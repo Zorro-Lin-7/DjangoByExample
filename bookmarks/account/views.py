@@ -32,4 +32,7 @@ def user_login(request):
 def dashboard(request):
     return render(request,
                   'account/dashboard.html',
-                  {'section': 'dashboard'})
+                  {'section': 'dashboard'}) # define a section variable. 
+                                            # We are going to use this variable to track which section of the site the user is watching.
+                                            # Multiple views may correspond to the same section. 
+                                            
