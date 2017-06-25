@@ -109,3 +109,8 @@ from django.core.urlresolvers import reverse_lazy
 LOGIN_REDIRECT_URL = reverse_lazy('dashboard')
 LOGIN_URL = reverse_lazy('login')
 LOGOUT_URL = reverse_lazy('logout')
+
+#Reset password 
+#The EMAIL_BACKEND setting indicates the class to use to send e-mails
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+
