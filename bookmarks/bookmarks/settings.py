@@ -114,3 +114,5 @@ LOGOUT_URL = reverse_lazy('logout')
 #The EMAIL_BACKEND setting indicates the class to use to send e-mails
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
+MEDIA_URL = '/media/'  # MEDIA_URL is the base URL to serve the media  les uploaded by users
+MEDIA_ROOT =os.path.join(BASE_DIR, 'media/') # MEDIA_ROOT is the local path where they reside
