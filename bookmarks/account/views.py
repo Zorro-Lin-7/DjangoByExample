@@ -1,8 +1,9 @@
 from django.shortcuts import render
 from django.http import HttpResponse
 from django.contrib.auth import authenticate, login
-from .forms import LoginForm, UserRegistrationForm
+from .forms import LoginForm, UserRegistrationForm, UserEditForm, ProfileEditForm
 from django.contrib.auth.decorators import login_required
+from .models import Profile
 
 
 # Create your views here.
@@ -36,6 +37,22 @@ def dashboard(request):
                                             # We are going to use this variable to track which section of the site the user is watching.
                                             # Multiple views may correspond to the same section. 
 
+@login_required
+def edit(request):
+    if request.method == 'POST': #to store the additional pro le data.
+        user_form = UserEditForm(instance=request.user, data=request.POST)
+        profile_form = ProfileEditForm(instance=request.user.profile, data=request.POST,
+                                       files=request.FILES)
+        if user_form.is_valid() and profile_form.is_valid(): #To validate the submitted data,
+            user_form.save()
+            profile_form.save()
+    else:
+        user_form = UserEditForm(instance=request.user)
+        profile_form = ProfileEditForm(instance=request.user.profile)
+        
+    return render(request, 'account/edit.html', {'user_form': user_form,
+                                                 'profile_form': profile_form})
+
 def register(request):
     if request.method == "POST":
         user_form = UserRegistrationForm(request.POST)
@@ -44,7 +61,10 @@ def register(request):
             new_user = user_form.save(commit=False) #Create a new user object but avoid saving it yet
             new_user.set_password(user_form.cleaned_data['password']) #Set the chosen password
             new_user.save()  # Save the User object
+            profile = Profile.objects.create(user=new_user) # Create the user Profile
             return render(request, 'account/register_done.html',{'new_user': new_user})
     else:                     # 此处犯过错，多了个缩进
         user_form = UserRegistrationForm()
-    return render(request,'account/register.html',{'user_form': user_form})    
+    return render(request,'account/register.html',{'user_form': user_form}) 
+    
+  
