@@ -39,6 +39,7 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'account',
     'django.contrib.admin',#Django template loader will use the  rst one it  nds
+    'social.apps.django_app.default',
 )
 
 MIDDLEWARE_CLASSES = (
