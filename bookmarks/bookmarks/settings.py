@@ -39,7 +39,6 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'account',
     'django.contrib.admin',#Django template loader will use the  rst one it  nds
-    'social.apps.django_app.default',
     'images',
 )
 
@@ -122,5 +121,5 @@ MEDIA_ROOT =os.path.join(BASE_DIR, 'media/') # MEDIA_ROOT is the local path wher
 AUTHENTICATION_BACKENDS = (
     'django.contrib.auth.backends.ModelBackend',
     'account.authentication.EmailAuthBackend',
-    'social.backends.facebook.facebook2OAuth2',
+    #'social.backends.facebook.facebook2OAuth2',
 )
