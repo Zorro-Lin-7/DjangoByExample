@@ -44,7 +44,7 @@ def dashboard(request):
     
     if following_ids:
         # If user is following others, retrive only their actions
-        actions = actions.filters(user_id__in=following_ids)
+        actions = actions.filters(user_id__in=following_ids).select_related('user', 'user__profile').prefetch_related('target')
     actions = actions[:10]
     
     return render(request,
