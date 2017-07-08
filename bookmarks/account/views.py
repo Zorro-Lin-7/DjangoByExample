@@ -11,6 +11,7 @@ from django.views.decorators.http import require_POST
 from common.decorators import ajax_required
 from .models import Contact
 from actions.utils import create_action
+from actions.models import Action
 
 # Create your views here.
 
@@ -37,9 +38,19 @@ def user_login(request):
 # to create a new view to display a dashboard to the user when he logs in their account.
 @login_required
 def dashboard(request):
+    # Display all actions by default
+    actions = Action.objects.exclude(user=request.user)
+    following_ids = request.user.following.values_list('id',flat=True)
+    
+    if following_ids:
+        # If user is following others, retrive only their actions
+        actions = actions.filters(user_id__in=following_ids)
+    actions = actions[:10]
+    
     return render(request,
                   'account/dashboard.html',
-                  {'section': 'dashboard'}) # define a section variable. 
+                  {'section': 'dashboard',
+                   'actions': actions}) # define a section variable. 
                                             # We are going to use this variable to track which section of the site the user is watching.
                                             # Multiple views may correspond to the same section. 
 
