@@ -10,6 +10,7 @@ from django.contrib.auth.models import User
 from django.views.decorators.http import require_POST
 from common.decorators import ajax_required
 from .models import Contact
+from actions.utils import create_action
 
 # Create your views here.
 
@@ -70,6 +71,7 @@ def register(request):
             new_user.set_password(user_form.cleaned_data['password']) #Set the chosen password
             new_user.save()  # Save the User object
             profile = Profile.objects.create(user=new_user) # Create the user Profile
+            create_action(new_user, 'has created an account')
             return render(request, 'account/register_done.html',{'new_user': new_user})
     else:                     # 此处犯过错，多了个缩进
         user_form = UserRegistrationForm()
