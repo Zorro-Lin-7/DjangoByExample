@@ -41,6 +41,7 @@ INSTALLED_APPS = (
     'django.contrib.admin',#Django template loader will use the  rst one it  nds
     'images',
     'sorl.thumbnail',
+    'actions',
 )
 
 MIDDLEWARE_CLASSES = (

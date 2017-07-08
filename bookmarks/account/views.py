@@ -7,7 +7,7 @@ from .models import Profile
 from django.contrib import messages
 from django.shortcuts import get_object_or_404
 from django.contrib.auth.models import User
-from django.views.decorators.http. import require_POST
+from django.views.decorators.http import require_POST
 from common.decorators import ajax_required
 from .models import Contact
 
