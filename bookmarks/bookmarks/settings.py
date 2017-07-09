@@ -129,3 +129,7 @@ AUTHENTICATION_BACKENDS = (
     'account.authentication.EmailAuthBackend',
     #'social.backends.facebook.facebook2OAuth2',
 )
+
+REDIS_HOST = 'localhost'
+REDIS_PORT = 6379
+REDIS_DB = 0
