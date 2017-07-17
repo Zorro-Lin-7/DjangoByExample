@@ -1,0 +1,34 @@
+[
+{
+  "model": "courses.subject",
+  "fields": {
+    "title": "Machine Learning",
+    "slug": "machine-learning"
+  },
+  "pk": 1
+},
+{
+  "model": "courses.subject",
+  "fields": {
+    "title": "Deep Learning",
+    "slug": "deep-learning"
+  },
+  "pk": 2
+},
+{
+  "model": "courses.subject",
+  "fields": {
+    "title": "Linear Algebra",
+    "slug": "linear-algebra"
+  },
+  "pk": 3
+},
+{
+  "model": "courses.subject",
+  "fields": {
+    "title": "Django By example",
+    "slug": "django-example"
+  },
+  "pk": 4
+}
+]
